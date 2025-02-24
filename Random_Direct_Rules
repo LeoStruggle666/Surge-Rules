@@ -1,5 +1,5 @@
-# > Lark
-# 更新时间：2024年10月24日16:50:11
+# > 需要直连的规则
+# 更新时间：2025年2月24日11:20:28
 
 DOMAIN-KEYWORD,jupyterhub
 DOMAIN-KEYWORD,atomecorp
@@ -11,3 +11,7 @@ DOMAIN-KEYWORD,archery
 DOMAIN-KEYWORD,advai
 DOMAIN-KEYWORD,lark
 DOMAIN,meican.com
+DOMAIN-SUFFIX,emby999.com
+DOMAIN-SUFFIX,jianguoyun.com
+DOMAIN-SUFFIX,reflix.top
+DOMAIN-SUFFIX,xmax.vip
