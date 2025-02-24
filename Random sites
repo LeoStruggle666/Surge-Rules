@@ -1,8 +1,10 @@
 # > 随机掉落的规则
 # 更新时间：2025年2月24日01:17
+# 需要代理的规则
 
 DOMAIN-KEYWORD,nextchat
 DOMAIN,nextchat.dev
 DOMAIN-KEYWORD,makenotion
 DOMAIN,makenotion.com
 DOMAIN-KEYWORD,agoda
+DOMAIN-SUFFIX,tmdb.org
