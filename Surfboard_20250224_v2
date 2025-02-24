@@ -22,9 +22,10 @@ http-listen = 0.0.0.0:6152
 socks5-listen = 0.0.0.0:6153
 enhanced-mode-by-rule = false
 test-timeout = 5
-dns-server = 114.114.114.114, system
 
 [Proxy]
+Traffic: 106.9 GB | 400 GB = ss, gzdata1.fc-sigma.xyz, 10001, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+Expire: 2025-04-26 = ss, gzdata1.fc-sigma.xyz, 10001, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
 🇭🇰 香港实验性 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 10001, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
 🇯🇵 日本实验性 IEPL 中继 1 = ss, shdata1.fc-sigma.xyz, 10002, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
 🇸🇬 新加坡实验性 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 10003, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
@@ -117,7 +118,7 @@ dns-server = 114.114.114.114, system
 GoogleFCM = select, DIRECT, Proxies, HK, JP, SG, TW, US
 RandomDirect = select, DIRECT, Proxies, HK, JP, SG, TW, US
 RandomProxy = select, DIRECT, Proxies, HK, JP, SG, TW, US
-AI = select, Proxies, HK, JP, SG, TW, US
+AI = select, Proxies, DIRECT, HK, JP, SG, TW, US
 YouTube = select, DIRECT, Proxies, HK, JP, SG, TW, US
 Netflix = select, DIRECT, Proxies, HK, JP, SG, TW, US
 Disney = select, DIRECT, Proxies, HK, JP, SG, TW, US
@@ -128,12 +129,12 @@ Telegram = select, Proxies, DIRECT, HK, JP, SG, TW, US
 Microsoft = select, Proxies, DIRECT, HK, JP, SG, TW, US
 MiscGlobal = select, Proxies, DIRECT, HK, JP, SG, TW, US
 Final = select, Proxies, DIRECT, HK, JP, SG, TW, US
-Proxies = select, HK, JP, SG, TW, US, "🇭🇰 香港实验性 IEPL 中继 1", "🇯🇵 日本实验性 IEPL 中继 1", "🇸🇬 新加坡实验性 IEPL 中继 1", "🇺🇸 美国实验性 IEPL 中继 1", "🇭🇰 香港高级 IEPL 中继 1", "🇭🇰 香港高级 IEPL 中继 2", "🇭🇰 香港高级 IEPL 中继 3", "🇯🇵 日本高级 IEPL 中继 1", "🇯🇵 日本高级 IEPL 中继 2", "🇯🇵 日本高级 IEPL 中继 3", "🇸🇬 新加坡高级 IEPL 中继 1", "🇸🇬 新加坡高级 IEPL 中继 2", "🇸🇬 新加坡高级 IEPL 中继 3", "🇨🇳 台湾高级 IEPL 中继 1", "🇨🇳 台湾高级 IEPL 中继 2", "🇨🇳 台湾高级 IEPL 中继 3", "🇺🇸 美国高级 IEPL 中继 1", "🇺🇸 美国高级 IEPL 中继 2", "🇺🇸 美国高级 IEPL 中继 3", "🇭🇰 香港标准 IEPL 中继 1", "🇭🇰 香港标准 IEPL 中继 2", "🇭🇰 香港标准 IEPL 中继 3", "🇭🇰 香港标准 IEPL 中继 4", "🇭🇰 香港标准 IEPL 中继 5", "🇭🇰 香港标准 IEPL 中继 6", "🇭🇰 香港标准 IEPL 中继 7", "🇭🇰 香港标准 IEPL 中继 8", "🇯🇵 日本标准 IEPL 中继 1", "🇯🇵 日本标准 IEPL 中继 2", "🇯🇵 日本标准 IEPL 中继 3", "🇯🇵 日本标准 IEPL 中继 4", "🇯🇵 日本标准 IEPL 中继 5", "🇯🇵 日本标准 IEPL 中继 6", "🇯🇵 日本标准 IEPL 中继 7", "🇯🇵 日本标准 IEPL 中继 8", "🇸🇬 新加坡标准 IEPL 中继 1", "🇸🇬 新加坡标准 IEPL 中继 2", "🇸🇬 新加坡标准 IEPL 中继 3", "🇸🇬 新加坡标准 IEPL 中继 4", "🇸🇬 新加坡标准 IEPL 中继 5", "🇸🇬 新加坡标准 IEPL 中继 6", "🇸🇬 新加坡标准 IEPL 中继 7", "🇸🇬 新加坡标准 IEPL 中继 8", "🇨🇳 台湾标准 IEPL 中继 1", "🇨🇳 台湾标准 IEPL 中继 2", "🇨🇳 台湾标准 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 1", "🇺🇸 美国标准 IEPL 中继 2", "🇺🇸 美国标准 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 4", "🇺🇸 美国标准 IEPL 中继 5", "🇺🇸 美国标准 IEPL 中继 6", "🇺🇸 美国标准 IEPL 中继 7", "🇺🇸 美国标准 IEPL 中继 8", "🇲🇩 摩尔多瓦标准 IEPL 中继 1", "🇺🇦 乌克兰标准 IEPL 中继 1", "🇮🇹 意大利标准 IEPL 中继 1", "🇭🇺 匈牙利标准 IEPL 中继 1", "🇪🇸 西班牙标准 IEPL 中继 1", "🇹🇷 土耳其标准 IEPL 中继 1", "🇩🇪 德国标准 IEPL 中继 1", "🇩🇪 德国标准 IEPL 中继 2", "🇬🇧 英国标准 IEPL 中继 1", "🇬🇧 英国标准 IEPL 中继 2", "🇳🇱 荷兰标准 IEPL 中继 1", "🇳🇱 荷兰标准 IEPL 中继 2", "🇫🇷 法国标准 IEPL 中继 1", "🇫🇷 法国标准 IEPL 中继 2", "🇨🇦 加拿大标准 IEPL 中继 1", "🇨🇦 加拿大标准 IEPL 中继 2", "🇦🇷 阿根廷标准 IEPL 中继 1", "🇧🇷 巴西标准 IEPL 中继 1", "🇨🇱 智利标准 IEPL 中继 1", "🇦🇺 澳大利亚标准 IEPL 中继 1", "🇳🇿 新西兰标准 IEPL 中继 1", "🇰🇷 韩国标准 IEPL 中继 1", "🇰🇷 韩国标准 IEPL 中继 2", "🇮🇩 印尼标准 IEPL 中继 1", "🇹🇭 泰国标准 IEPL 中继 1", "🇻🇳 越南标准 IEPL 中继 1", "🇮🇳 印度标准 IEPL 中继 1", "🇵🇰 巴基斯坦标准 IEPL 中继 1", "🇮🇱 以色列标准 IEPL 中继 1", "🇦🇪 阿联酋标准 IEPL 中继 1", "🇵🇭 菲律宾标准 IEPL 中继 1", "🇲🇾 马来西亚标准 IEPL 中继 1", "🇪🇬 埃及标准 IEPL 中继 1"
-HK = select, "🇭🇰 香港实验性 IEPL 中继 1", "🇭🇰 香港高级 IEPL 中继 1", "🇭🇰 香港高级 IEPL 中继 2", "🇭🇰 香港高级 IEPL 中继 3", "🇭🇰 香港标准 IEPL 中继 1", "🇭🇰 香港标准 IEPL 中继 2", "🇭🇰 香港标准 IEPL 中继 3", "🇭🇰 香港标准 IEPL 中继 4", "🇭🇰 香港标准 IEPL 中继 5", "🇭🇰 香港标准 IEPL 中继 6", "🇭🇰 香港标准 IEPL 中继 7", "🇭🇰 香港标准 IEPL 中继 8"
-JP = select, "🇯🇵 日本实验性 IEPL 中继 1", "🇯🇵 日本高级 IEPL 中继 1", "🇯🇵 日本高级 IEPL 中继 2", "🇯🇵 日本高级 IEPL 中继 3", "🇯🇵 日本标准 IEPL 中继 1", "🇯🇵 日本标准 IEPL 中继 2", "🇯🇵 日本标准 IEPL 中继 3", "🇯🇵 日本标准 IEPL 中继 4", "🇯🇵 日本标准 IEPL 中继 5", "🇯🇵 日本标准 IEPL 中继 6", "🇯🇵 日本标准 IEPL 中继 7", "🇯🇵 日本标准 IEPL 中继 8"
-SG = select, "🇸🇬 新加坡实验性 IEPL 中继 1", "🇸🇬 新加坡高级 IEPL 中继 1", "🇸🇬 新加坡高级 IEPL 中继 2", "🇸🇬 新加坡高级 IEPL 中继 3", "🇸🇬 新加坡标准 IEPL 中继 1", "🇸🇬 新加坡标准 IEPL 中继 2", "🇸🇬 新加坡标准 IEPL 中继 3", "🇸🇬 新加坡标准 IEPL 中继 4", "🇸🇬 新加坡标准 IEPL 中继 5", "🇸🇬 新加坡标准 IEPL 中继 6", "🇸🇬 新加坡标准 IEPL 中继 7", "🇸🇬 新加坡标准 IEPL 中继 8"
-TW = select, "🇨🇳 台湾高级 IEPL 中继 1", "🇨🇳 台湾高级 IEPL 中继 2", "🇨🇳 台湾高级 IEPL 中继 3", "🇨🇳 台湾标准 IEPL 中继 1", "🇨🇳 台湾标准 IEPL 中继 2", "🇨🇳 台湾标准 IEPL 中继 3"
-US = select, "🇺🇸 美国实验性 IEPL 中继 1", "🇺🇸 美国高级 IEPL 中继 1", "🇺🇸 美国高级 IEPL 中继 2", "🇺🇸 美国高级 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 1", "🇺🇸 美国标准 IEPL 中继 2", "🇺🇸 美国标准 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 4", "🇺🇸 美国标准 IEPL 中继 5", "🇺🇸 美国标准 IEPL 中继 6", "🇺🇸 美国标准 IEPL 中继 7", "🇺🇸 美国标准 IEPL 中继 8"
+Proxies = select, HK, JP, SG, TW, US, Traffic: 106.9 GB | 400 GB, Expire: 2025-04-26, 🇭🇰 香港实验性 IEPL 中继 1, 🇯🇵 日本实验性 IEPL 中继 1, 🇸🇬 新加坡实验性 IEPL 中继 1, 🇺🇸 美国实验性 IEPL 中继 1, 🇭🇰 香港高级 IEPL 中继 1, 🇭🇰 香港高级 IEPL 中继 2, 🇭🇰 香港高级 IEPL 中继 3, 🇯🇵 日本高级 IEPL 中继 1, 🇯🇵 日本高级 IEPL 中继 2, 🇯🇵 日本高级 IEPL 中继 3, 🇸🇬 新加坡高级 IEPL 中继 1, 🇸🇬 新加坡高级 IEPL 中继 2, 🇸🇬 新加坡高级 IEPL 中继 3, 🇨🇳 台湾高级 IEPL 中继 1, 🇨🇳 台湾高级 IEPL 中继 2, 🇨🇳 台湾高级 IEPL 中继 3, 🇺🇸 美国高级 IEPL 中继 1, 🇺🇸 美国高级 IEPL 中继 2, 🇺🇸 美国高级 IEPL 中继 3, 🇭🇰 香港标准 IEPL 中继 1, 🇭🇰 香港标准 IEPL 中继 2, 🇭🇰 香港标准 IEPL 中继 3, 🇭🇰 香港标准 IEPL 中继 4, 🇭🇰 香港标准 IEPL 中继 5, 🇭🇰 香港标准 IEPL 中继 6, 🇭🇰 香港标准 IEPL 中继 7, 🇭🇰 香港标准 IEPL 中继 8, 🇯🇵 日本标准 IEPL 中继 1, 🇯🇵 日本标准 IEPL 中继 2, 🇯🇵 日本标准 IEPL 中继 3, 🇯🇵 日本标准 IEPL 中继 4, 🇯🇵 日本标准 IEPL 中继 5, 🇯🇵 日本标准 IEPL 中继 6, 🇯🇵 日本标准 IEPL 中继 7, 🇯🇵 日本标准 IEPL 中继 8, 🇸🇬 新加坡标准 IEPL 中继 1, 🇸🇬 新加坡标准 IEPL 中继 2, 🇸🇬 新加坡标准 IEPL 中继 3, 🇸🇬 新加坡标准 IEPL 中继 4, 🇸🇬 新加坡标准 IEPL 中继 5, 🇸🇬 新加坡标准 IEPL 中继 6, 🇸🇬 新加坡标准 IEPL 中继 7, 🇸🇬 新加坡标准 IEPL 中继 8, 🇨🇳 台湾标准 IEPL 中继 1, 🇨🇳 台湾标准 IEPL 中继 2, 🇨🇳 台湾标准 IEPL 中继 3, 🇺🇸 美国标准 IEPL 中继 1, 🇺🇸 美国标准 IEPL 中继 2, 🇺🇸 美国标准 IEPL 中继 3, 🇺🇸 美国标准 IEPL 中继 4, 🇺🇸 美国标准 IEPL 中继 5, 🇺🇸 美国标准 IEPL 中继 6, 🇺🇸 美国标准 IEPL 中继 7, 🇺🇸 美国标准 IEPL 中继 8, 🇲🇩 摩尔多瓦标准 IEPL 中继 1, 🇺🇦 乌克兰标准 IEPL 中继 1, 🇮🇹 意大利标准 IEPL 中继 1, 🇭🇺 匈牙利标准 IEPL 中继 1, 🇪🇸 西班牙标准 IEPL 中继 1, 🇹🇷 土耳其标准 IEPL 中继 1, 🇩🇪 德国标准 IEPL 中继 1, 🇩🇪 德国标准 IEPL 中继 2, 🇬🇧 英国标准 IEPL 中继 1, 🇬🇧 英国标准 IEPL 中继 2, 🇳🇱 荷兰标准 IEPL 中继 1, 🇳🇱 荷兰标准 IEPL 中继 2, 🇫🇷 法国标准 IEPL 中继 1, 🇫🇷 法国标准 IEPL 中继 2, 🇨🇦 加拿大标准 IEPL 中继 1, 🇨🇦 加拿大标准 IEPL 中继 2, 🇦🇷 阿根廷标准 IEPL 中继 1, 🇧🇷 巴西标准 IEPL 中继 1, 🇨🇱 智利标准 IEPL 中继 1, 🇦🇺 澳大利亚标准 IEPL 中继 1, 🇳🇿 新西兰标准 IEPL 中继 1, 🇰🇷 韩国标准 IEPL 中继 1, 🇰🇷 韩国标准 IEPL 中继 2, 🇮🇩 印尼标准 IEPL 中继 1, 🇹🇭 泰国标准 IEPL 中继 1, 🇻🇳 越南标准 IEPL 中继 1, 🇮🇳 印度标准 IEPL 中继 1, 🇵🇰 巴基斯坦标准 IEPL 中继 1, 🇮🇱 以色列标准 IEPL 中继 1, 🇦🇪 阿联酋标准 IEPL 中继 1, 🇵🇭 菲律宾标准 IEPL 中继 1, 🇲🇾 马来西亚标准 IEPL 中继 1, 🇪🇬 埃及标准 IEPL 中继 1
+HK = select, 🇭🇰 香港实验性 IEPL 中继 1, 🇭🇰 香港高级 IEPL 中继 1, 🇭🇰 香港高级 IEPL 中继 2, 🇭🇰 香港高级 IEPL 中继 3, 🇭🇰 香港标准 IEPL 中继 1, 🇭🇰 香港标准 IEPL 中继 2, 🇭🇰 香港标准 IEPL 中继 3, 🇭🇰 香港标准 IEPL 中继 4, 🇭🇰 香港标准 IEPL 中继 5, 🇭🇰 香港标准 IEPL 中继 6, 🇭🇰 香港标准 IEPL 中继 7, 🇭🇰 香港标准 IEPL 中继 8
+JP = select, 🇯🇵 日本实验性 IEPL 中继 1, 🇯🇵 日本高级 IEPL 中继 1, 🇯🇵 日本高级 IEPL 中继 2, 🇯🇵 日本高级 IEPL 中继 3, 🇯🇵 日本标准 IEPL 中继 1, 🇯🇵 日本标准 IEPL 中继 2, 🇯🇵 日本标准 IEPL 中继 3, 🇯🇵 日本标准 IEPL 中继 4, 🇯🇵 日本标准 IEPL 中继 5, 🇯🇵 日本标准 IEPL 中继 6, 🇯🇵 日本标准 IEPL 中继 7, 🇯🇵 日本标准 IEPL 中继 8
+SG = select, 🇸🇬 新加坡实验性 IEPL 中继 1, 🇸🇬 新加坡高级 IEPL 中继 1, 🇸🇬 新加坡高级 IEPL 中继 2, 🇸🇬 新加坡高级 IEPL 中继 3, 🇸🇬 新加坡标准 IEPL 中继 1, 🇸🇬 新加坡标准 IEPL 中继 2, 🇸🇬 新加坡标准 IEPL 中继 3, 🇸🇬 新加坡标准 IEPL 中继 4, 🇸🇬 新加坡标准 IEPL 中继 5, 🇸🇬 新加坡标准 IEPL 中继 6, 🇸🇬 新加坡标准 IEPL 中继 7, 🇸🇬 新加坡标准 IEPL 中继 8
+TW = select, 🇨🇳 台湾高级 IEPL 中继 1, 🇨🇳 台湾高级 IEPL 中继 2, 🇨🇳 台湾高级 IEPL 中继 3, 🇨🇳 台湾标准 IEPL 中继 1, 🇨🇳 台湾标准 IEPL 中继 2, 🇨🇳 台湾标准 IEPL 中继 3
+US = select, 🇺🇸 美国实验性 IEPL 中继 1, 🇺🇸 美国高级 IEPL 中继 1, 🇺🇸 美国高级 IEPL 中继 2, 🇺🇸 美国高级 IEPL 中继 3, 🇺🇸 美国标准 IEPL 中继 1, 🇺🇸 美国标准 IEPL 中继 2, 🇺🇸 美国标准 IEPL 中继 3, 🇺🇸 美国标准 IEPL 中继 4, 🇺🇸 美国标准 IEPL 中继 5, 🇺🇸 美国标准 IEPL 中继 6, 🇺🇸 美国标准 IEPL 中继 7, 🇺🇸 美国标准 IEPL 中继 8
 
 [Rule]
 PROCESS-NAME,/Applications/ChatGPT.app/Contents/MacOS/ChatGPT,AI
@@ -171,54 +172,54 @@ URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJ
 
 # 广告拦截 / 隐私保护 / Malware 拦截 / Phiishing 拦截
 # Non IP
-RULE-SET,https://ruleset.skk.moe/List/non_ip/reject-drop.conf,REJECT-DROP
-DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject.conf,REJECT-TINYGIF
-RULE-SET,https://ruleset.skk.moe/List/non_ip/reject.conf,REJECT
+# RULE-SET,https://ruleset.skk.moe/List/non_ip/reject-drop.conf,REJECT-DROP
+# DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject.conf,REJECT-TINYGIF
+# RULE-SET,https://ruleset.skk.moe/List/non_ip/reject.conf,REJECT
 # IP
-RULE-SET,https://ruleset.skk.moe/List/ip/reject.conf,REJECT-DROP
+# RULE-SET,https://ruleset.skk.moe/List/ip/reject.conf,REJECT-DROP
 
 # 搜狗输入法，影响搜狗输入法账号同步、词库更新、问题反馈
 RULE-SET,https://ruleset.skk.moe/List/non_ip/sogouinput.conf,REJECT
 
 # 常见静态 CDN
-# DOMAIN-SET,https://ruleset.skk.moe/List/domainset/cdn.conf,DIRECT,"update-interval=86400"
-# RULE-SET,https://ruleset.skk.moe/List/non_ip/cdn.conf,DIRECT,"update-interval=86400"
+# DOMAIN-SET,https://ruleset.skk.moe/List/domainset/cdn.conf,DIRECT,update-interval=86400
+# RULE-SET,https://ruleset.skk.moe/List/non_ip/cdn.conf,DIRECT,update-interval=86400
 
 # 流媒体
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list,YouTube,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list,Netflix,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list,Disney,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Bahamut.list,Bahamut,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list,Bilibili,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list,Spotify,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list,YouTube,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list,Netflix,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list,Disney,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Bahamut.list,Bahamut,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list,Bilibili,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list,Spotify,update-interval=86400
 
 # AI，包含 OpenAI、Google Gemini、Claude、Perplexity 等
-RULE-SET,https://ruleset.skk.moe/List/non_ip/ai.conf,AI,"update-interval=86400"
+RULE-SET,https://ruleset.skk.moe/List/non_ip/ai.conf,AI,update-interval=86400
 
 # Telegram
-RULE-SET,https://ruleset.skk.moe/List/ip/telegram.conf,Telegram,"update-interval=86400"
+RULE-SET,https://ruleset.skk.moe/List/ip/telegram.conf,Telegram,update-interval=86400
 
 # Apple CDN
-DOMAIN-SET,https://ruleset.skk.moe/List/domainset/apple_cdn.conf,DIRECT,"update-interval=86400"
+DOMAIN-SET,https://ruleset.skk.moe/List/domainset/apple_cdn.conf,DIRECT,update-interval=86400
 
 # Apple Service
-RULE-SET,https://ruleset.skk.moe/List/non_ip/apple_services.conf,DIRECT,"update-interval=86400"
+RULE-SET,https://ruleset.skk.moe/List/non_ip/apple_services.conf,DIRECT,update-interval=86400
 
 # Microsoft CDN
 # RULE-SET,https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf,[Replace with your policy]
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Microsoft/Microsoft.list,Microsoft,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Microsoft/Microsoft.list,Microsoft,update-interval=86400
 
 # 软件更新、操作系统等大文件下载
-DOMAIN-SET,https://ruleset.skk.moe/List/domainset/download.conf,DIRECT,"update-interval=86400"
-RULE-SET,https://ruleset.skk.moe/List/non_ip/download.conf,DIRECT,"update-interval=86400"
+DOMAIN-SET,https://ruleset.skk.moe/List/domainset/download.conf,DIRECT,update-interval=86400
+RULE-SET,https://ruleset.skk.moe/List/non_ip/download.conf,DIRECT,update-interval=86400
 
 # Misc
-RULE-SET,https://ruleset.skk.moe/List/non_ip/domestic.conf,DIRECT,"update-interval=86400"
-RULE-SET,https://ruleset.skk.moe/List/non_ip/direct.conf,DIRECT,"update-interval=86400"
-RULE-SET,https://ruleset.skk.moe/List/non_ip/global.conf,MiscGlobal,"update-interval=86400"
-RULE-SET,https://ruleset.skk.moe/List/ip/domestic.conf,DIRECT,"update-interval=86400"
+RULE-SET,https://ruleset.skk.moe/List/non_ip/domestic.conf,DIRECT,update-interval=86400
+RULE-SET,https://ruleset.skk.moe/List/non_ip/direct.conf,DIRECT,update-interval=86400
+RULE-SET,https://ruleset.skk.moe/List/non_ip/global.conf,MiscGlobal,update-interval=86400
+RULE-SET,https://ruleset.skk.moe/List/ip/domestic.conf,DIRECT,update-interval=86400
 
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/China.list,DIRECT,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/China.list,DIRECT,update-interval=86400
 
 GEOIP,CN,DIRECT
 FINAL,Final
@@ -327,17 +328,17 @@ amplifi.lan = server:syslib
 ^https?:\/\/newcz\.m\.jd\.com\/ https://newcz.m.jd.com/ 302
 ^https?:\/\/p\.m\.jd\.com\/ https://p.m.jd.com/ 302
 ^https?:\/\/so\.m\.jd\.com\/ https://so.m.jd.com/ 302
-^https?:\/\/union\.click\.jd\.com\/jda? "http://union.click.jd.com/jda?adblock=" header
-^https?:\/\/union\.click\.jd\.com\/sem.php? "http://union.click.jd.com/sem.php?adblock=" header
+^https?:\/\/union\.click\.jd\.com\/jda? http://union.click.jd.com/jda?adblock= header
+^https?:\/\/union\.click\.jd\.com\/sem.php? http://union.click.jd.com/sem.php?adblock= header
 ^https?:\/\/www.jd.com\/ https://www.jd.com/ 302
 
 # Wiki
-# "^https://zh.(m.)?wikipedia.org/zh(-\w*)?(?=/)" https://www.wikiwand.com/zh$2 302
+# ^https://zh.(m.)?wikipedia.org/zh(-\w*)?(?=/) https://www.wikiwand.com/zh$2 302
 # ^https://(\w*).(m.)?wikipedia.org/wiki https://www.wikiwand.com/$1 302
 
 # Resso
 
-"(?<=(carrier|account|sys|sim)_region=)cn" in 307
+(?<=(carrier|account|sys|sim)_region=)cn in 307
 
 # Advertising Block header
 
@@ -418,8 +419,8 @@ amplifi.lan = server:syslib
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getWelcomeAd|getHomePageAd) - reject
 
 # >> CNTV header
-"^https?:\/\/asp\.cntv\.myalicdn\.com\/.+\?maxbr=850" - reject
-"^https?:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+\?maxbr=850" - reject
+^https?:\/\/asp\.cntv\.myalicdn\.com\/.+\?maxbr=850 - reject
+^https?:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+\?maxbr=850 - reject
 ^https?:\/\/v\.cctv\.com\/.+850 - reject
 ^https?:\/\/www\.cntv\.cn\/nettv\/adp\/ - reject
 
@@ -427,7 +428,7 @@ amplifi.lan = server:syslib
 ^https?:\/\/www\.dandanzan\.com\/res\/gdsefse\.js - reject
 
 # >> DangDang header
-"^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init" - reject
+^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init - reject
 
 # >> DayDayCook header
 ^https?:\/\/api\.daydaycook\.com\.cn\/daydaycook\/server\/ad\/ - reject
@@ -435,7 +436,7 @@ amplifi.lan = server:syslib
 
 # >> eLong header
 ^https?:\/\/mobile-api2011\.elong\.com\/(adgateway|adv)\/ - reject
-"^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/(adgateway|adv)\/" - reject
+^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/(adgateway|adv)\/ - reject
 
 # >> Facebook header
 ^https?:\/\/www\.facebook\.com\/.+video_click_to_advertiser_site - reject
@@ -444,7 +445,7 @@ amplifi.lan = server:syslib
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/ - reject
 
 # >> Flyer Tea
-"^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis" - reject
+^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
 
 # >> Foodie header
 ^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview - reject
@@ -496,7 +497,7 @@ amplifi.lan = server:syslib
 
 # >> JD header
 ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
-"^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start" - reject
+^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start - reject
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo - reject
 
 # >> Jiemian header
@@ -517,7 +518,7 @@ amplifi.lan = server:syslib
 ^https?:/\/\counter\.ksosoft.com\/ad\.php - reject
 ^https?:\/\/.+\.kingsoft-office-service\.com\/ad - reject
 ^https?:\/\/counter\.ksosoft\.com\/ad\.php - reject
-"^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?.+(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController)" - reject
+^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?.+(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController) - reject
 ^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
 ^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ - reject
 ^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson - reject
@@ -530,8 +531,8 @@ amplifi.lan = server:syslib
 ^https?:\/\/api\.kkmh\.com\/.+(ad|advertisement)\/ - reject
 
 # >> Kuwo header
-"^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/EcomResourceServer/AdPlayPage/adinfo" - reject
-"^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/MobileAdServer\/" - reject
+^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/EcomResourceServer/AdPlayPage/adinfo - reject
+^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/MobileAdServer\/ - reject
 
 # >> Le header
 ^https?:\/\/.+\/letv-gug\/ - reject
@@ -656,13 +657,13 @@ amplifi.lan = server:syslib
 ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passenger-token\/leachtoken\/webservice\/homepage\/queryADs - reject
 
 # >> Sina header
-"^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv" - reject
+^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv - reject
 
 # >> Sina Weather
 ^https?:\/\/tqt\.weibo\.cn\/.+advert\.index - reject
 ^https?:\/\/tqt\.weibo\.cn\/api\/advert\/ - reject
-"^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=tqtad" - reject
-"^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=tqt_sdkad" - reject
+^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=tqtad - reject
+^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=tqt_sdkad - reject
 
 # >> Sina Weibo
 ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php - reject
@@ -699,7 +700,7 @@ amplifi.lan = server:syslib
 
 # >> Tencent Maps
 ^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ - reject
-"^https?:\/\/newsso\.map\.qq\.com\/\?&attime=" - reject
+^https?:\/\/newsso\.map\.qq\.com\/\?&attime= - reject
 
 # >> Tencent News
 ^https?:\/\/r\.inews\.qq\.com\/adsBlacklist - reject
@@ -707,8 +708,8 @@ amplifi.lan = server:syslib
 ^https?:\/\/r\.inews\.qq\.com\/getQQNewsRemoteConfig - reject
 
 # >> Tencent QQLive
-"^https?:\/\/.+\.mp4\?cdncode=.+&guid=" - reject
-"^https?:\/\/.+\.mp4\?cdncode=.+&sdtfrom=v3004" - reject
+^https?:\/\/.+\.mp4\?cdncode=.+&guid= - reject
+^https?:\/\/.+\.mp4\?cdncode=.+&sdtfrom=v3004 - reject
 ^https?:\/\/btrace.qq.com - reject
 ^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
 
@@ -718,7 +719,7 @@ amplifi.lan = server:syslib
 ^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_video - reject
 
 # >> The Paper
-"^https?:\/\/adpai\.thepaper\.cn\/.+&ad=" - reject
+^https?:\/\/adpai\.thepaper\.cn\/.+&ad= - reject
 
 # >> Thunder header
 ^https?:\/\/images\.client\.vip\.xunlei\.com\/.+\/advert\/ - reject
@@ -750,7 +751,7 @@ amplifi.lan = server:syslib
 ^https?:\/\/app\.wy\.guahao\.com\/json\/white\/dayquestion\/getpopad - reject
 
 # >> Weico header
-"^https?:\/\/overseas\.weico\.cc/portal\.php\?a=get_coopen_ads" - reject
+^https?:\/\/overseas\.weico\.cc/portal\.php\?a=get_coopen_ads - reject
 
 # >> WeiDian header
 ^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/ - reject
@@ -774,17 +775,17 @@ amplifi.lan = server:syslib
 
 # >> Xianyu header
 ^https?:\/\/gw\.alicdn\.com\/mt\/ - reject
-"^https?:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4}" - reject
-"^https?:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4}" - reject
+^https?:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4} - reject
+^https?:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4} - reject
 
 # >> Xiao Shuimian
 ^https?:\/\/api\.psy-1\.com\/cosleep\/startup - reject
 
 # >> Ximalaya header
-"^https?:\/\/adse.+\.com\/[a-z]{4}\/loading\?appid=" - reject
-"^https?:\/\/adse\.ximalaya\.com\/ting\/feed\?appid=" - reject
-"^https?:\/\/adse\.ximalaya\.com\/ting\/loading\?appid=" - reject
-"^https?:\/\/adse\.ximalaya\.com\/ting\?appid=" - reject
+^https?:\/\/adse.+\.com\/[a-z]{4}\/loading\?appid= - reject
+^https?:\/\/adse\.ximalaya\.com\/ting\/feed\?appid= - reject
+^https?:\/\/adse\.ximalaya\.com\/ting\/loading\?appid= - reject
+^https?:\/\/adse\.ximalaya\.com\/ting\?appid= - reject
 ^https?:\/\/fdfs\.xmcdn\.com\/group21\/M03\/E7\/3F\/ - reject
 ^https?:\/\/fdfs\.xmcdn\.com\/group21\/M0A\/95\/3B\/ - reject
 ^https?:\/\/fdfs\.xmcdn\.com\/group22\/M00\/92\/FF\/ - reject
@@ -809,8 +810,8 @@ amplifi.lan = server:syslib
 ^https?:\/\/i\.ys7\.com\/api\/ads - reject
 
 # >> YOUKU header
-"^https?:\/\/.+\.mp4\?ccode=0902" - reject
-"^https?:\/\/.+\.mp4\?sid=" - reject
+^https?:\/\/.+\.mp4\?ccode=0902 - reject
+^https?:\/\/.+\.mp4\?sid= - reject
 
 # >> Youtube++ header
 ^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/ - reject
@@ -844,7 +845,7 @@ amplifi.lan = server:syslib
 ^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated - reject
 ^https?:\/\/b\.zhuishushenqi\.com\/advert - reject
 ^https?:\/\/dspsdk\.abreader\.com\/v\d\/api\/ad\? - reject
-"^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903" - reject
+^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903 - reject
 ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
 
 [MITM]
