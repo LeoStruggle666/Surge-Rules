@@ -1,0 +1,821 @@
+[General]
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,17.0.0.0/8,localhost,*.local,passenger.t3go.cn
+bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+doh-server = https://dns.alidns.com/dns-query, https://doh.pub/dns-query
+hijack-dns = 8.8.8.8:53, 8.8.4.4:53
+loglevel = notify
+replica = false
+tls-provider = default
+show-error-page-for-reject = true
+exclude-simple-hostnames = true
+always-raw-tcp-hosts = www.google.com, 91.108.4.*, 91.108.5.*, 91.108.6.*, 91.108.7.*, 91.108.8.*, 91.108.9.*, 91.108.1*.*, 91.108.5*, 91.108.6*, 91.108.7*, 149.154.16*, 149.154.17*, 185.76.151.*
+always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.battlenet.com.cn, *.battlenet.com, *.blzstatic.cn, *.battle.net
+internet-test-url = http://www.aliyun.com
+proxy-test-url = http://www.gstatic.com/generate_204
+# iOS Only
+allow-wifi-access = true
+wifi-access-http-port = 6152
+wifi-access-socks5-port = 6153
+# macOS Only
+http-listen = 0.0.0.0:6152
+socks5-listen = 0.0.0.0:6153
+enhanced-mode-by-rule = false
+ipv6 = false
+ipv6-vif = disabled
+
+[Proxy]
+Traffic: 65.5 GB | 400 GB = ss, gzdata1.fc-sigma.xyz, 10001, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+Expire: 2025-04-26 = ss, gzdata1.fc-sigma.xyz, 10001, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇭🇰 香港实验性 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 10001, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇯🇵 日本实验性 IEPL 中继 1 = ss, shdata1.fc-sigma.xyz, 10002, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇸🇬 新加坡实验性 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 10003, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇺🇸 美国实验性 IEPL 中继 1 = ss, shdata1.fc-sigma.xyz, 10004, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇭🇰 香港高级 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 12001, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇭🇰 香港高级 IEPL 中继 2 = ss, gzdata1.fc-sigma.xyz, 12002, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇭🇰 香港高级 IEPL 中继 3 = ss, gzdata1.fc-sigma.xyz, 12003, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇯🇵 日本高级 IEPL 中继 1 = ss, shdata1.fc-sigma.xyz, 12011, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇯🇵 日本高级 IEPL 中继 2 = ss, shdata1.fc-sigma.xyz, 12012, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇯🇵 日本高级 IEPL 中继 3 = ss, shdata1.fc-sigma.xyz, 12013, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇸🇬 新加坡高级 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 12031, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇸🇬 新加坡高级 IEPL 中继 2 = ss, gzdata1.fc-sigma.xyz, 12032, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇸🇬 新加坡高级 IEPL 中继 3 = ss, gzdata1.fc-sigma.xyz, 12033, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇨🇳 台湾高级 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 12041, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇨🇳 台湾高级 IEPL 中继 2 = ss, gzdata1.fc-sigma.xyz, 12042, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇨🇳 台湾高级 IEPL 中继 3 = ss, gzdata1.fc-sigma.xyz, 12043, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇺🇸 美国高级 IEPL 中继 1 = ss, shdata1.fc-sigma.xyz, 12021, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇺🇸 美国高级 IEPL 中继 2 = ss, shdata1.fc-sigma.xyz, 12022, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇺🇸 美国高级 IEPL 中继 3 = ss, shdata1.fc-sigma.xyz, 12023, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇭🇰 香港标准 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 11001, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇭🇰 香港标准 IEPL 中继 2 = ss, gzdata1.fc-sigma.xyz, 11002, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇭🇰 香港标准 IEPL 中继 3 = ss, gzdata1.fc-sigma.xyz, 11003, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇭🇰 香港标准 IEPL 中继 4 = ss, gzdata1.fc-sigma.xyz, 11004, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇭🇰 香港标准 IEPL 中继 5 = ss, gzdata1.fc-sigma.xyz, 11005, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇭🇰 香港标准 IEPL 中继 6 = ss, gzdata1.fc-sigma.xyz, 11006, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇭🇰 香港标准 IEPL 中继 7 = ss, gzdata1.fc-sigma.xyz, 11007, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇭🇰 香港标准 IEPL 中继 8 = ss, gzdata1.fc-sigma.xyz, 11008, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇯🇵 日本标准 IEPL 中继 1 = ss, shdata1.fc-sigma.xyz, 11011, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇯🇵 日本标准 IEPL 中继 2 = ss, shdata1.fc-sigma.xyz, 11012, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇯🇵 日本标准 IEPL 中继 3 = ss, shdata1.fc-sigma.xyz, 11013, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇯🇵 日本标准 IEPL 中继 4 = ss, shdata1.fc-sigma.xyz, 11014, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇯🇵 日本标准 IEPL 中继 5 = ss, shdata1.fc-sigma.xyz, 11015, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇯🇵 日本标准 IEPL 中继 6 = ss, shdata1.fc-sigma.xyz, 11016, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇯🇵 日本标准 IEPL 中继 7 = ss, shdata1.fc-sigma.xyz, 11017, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇯🇵 日本标准 IEPL 中继 8 = ss, shdata1.fc-sigma.xyz, 11018, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇸🇬 新加坡标准 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 11031, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇸🇬 新加坡标准 IEPL 中继 2 = ss, gzdata1.fc-sigma.xyz, 11032, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇸🇬 新加坡标准 IEPL 中继 3 = ss, gzdata1.fc-sigma.xyz, 11033, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇸🇬 新加坡标准 IEPL 中继 4 = ss, gzdata1.fc-sigma.xyz, 11034, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇸🇬 新加坡标准 IEPL 中继 5 = ss, gzdata1.fc-sigma.xyz, 11035, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇸🇬 新加坡标准 IEPL 中继 6 = ss, gzdata1.fc-sigma.xyz, 11036, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇸🇬 新加坡标准 IEPL 中继 7 = ss, gzdata1.fc-sigma.xyz, 11037, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇸🇬 新加坡标准 IEPL 中继 8 = ss, gzdata1.fc-sigma.xyz, 11038, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇨🇳 台湾标准 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 11041, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇨🇳 台湾标准 IEPL 中继 2 = ss, gzdata1.fc-sigma.xyz, 11042, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇨🇳 台湾标准 IEPL 中继 3 = ss, gzdata1.fc-sigma.xyz, 11043, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇺🇸 美国标准 IEPL 中继 1 = ss, shdata1.fc-sigma.xyz, 11021, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇺🇸 美国标准 IEPL 中继 2 = ss, shdata1.fc-sigma.xyz, 11022, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇺🇸 美国标准 IEPL 中继 3 = ss, shdata1.fc-sigma.xyz, 11023, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇺🇸 美国标准 IEPL 中继 4 = ss, shdata1.fc-sigma.xyz, 11024, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇺🇸 美国标准 IEPL 中继 5 = ss, shdata1.fc-sigma.xyz, 11025, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇺🇸 美国标准 IEPL 中继 6 = ss, shdata1.fc-sigma.xyz, 11026, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇺🇸 美国标准 IEPL 中继 7 = ss, shdata1.fc-sigma.xyz, 11027, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇺🇸 美国标准 IEPL 中继 8 = ss, shdata1.fc-sigma.xyz, 11028, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇲🇩 摩尔多瓦标准 IEPL 中继 1 = ss, bjdata1.fc-sigma.xyz, 11050, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇺🇦 乌克兰标准 IEPL 中继 1 = ss, bjdata1.fc-sigma.xyz, 11051, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇮🇹 意大利标准 IEPL 中继 1 = ss, bjdata1.fc-sigma.xyz, 11052, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇭🇺 匈牙利标准 IEPL 中继 1 = ss, bjdata1.fc-sigma.xyz, 11053, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇪🇸 西班牙标准 IEPL 中继 1 = ss, bjdata1.fc-sigma.xyz, 11054, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇹🇷 土耳其标准 IEPL 中继 1 = ss, bjdata1.fc-sigma.xyz, 11055, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇩🇪 德国标准 IEPL 中继 1 = ss, bjdata1.fc-sigma.xyz, 11056, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇩🇪 德国标准 IEPL 中继 2 = ss, bjdata1.fc-sigma.xyz, 11057, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇬🇧 英国标准 IEPL 中继 1 = ss, bjdata1.fc-sigma.xyz, 11058, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇬🇧 英国标准 IEPL 中继 2 = ss, bjdata1.fc-sigma.xyz, 11059, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇳🇱 荷兰标准 IEPL 中继 1 = ss, bjdata1.fc-sigma.xyz, 11060, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇳🇱 荷兰标准 IEPL 中继 2 = ss, bjdata1.fc-sigma.xyz, 11061, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇫🇷 法国标准 IEPL 中继 1 = ss, bjdata1.fc-sigma.xyz, 11062, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇫🇷 法国标准 IEPL 中继 2 = ss, bjdata1.fc-sigma.xyz, 11063, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇨🇦 加拿大标准 IEPL 中继 1 = ss, shdata1.fc-sigma.xyz, 11064, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇨🇦 加拿大标准 IEPL 中继 2 = ss, shdata1.fc-sigma.xyz, 11065, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇦🇷 阿根廷标准 IEPL 中继 1 = ss, shdata1.fc-sigma.xyz, 11066, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇧🇷 巴西标准 IEPL 中继 1 = ss, shdata1.fc-sigma.xyz, 11067, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇨🇱 智利标准 IEPL 中继 1 = ss, shdata1.fc-sigma.xyz, 11068, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇦🇺 澳大利亚标准 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 11069, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇳🇿 新西兰标准 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 11070, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇰🇷 韩国标准 IEPL 中继 1 = ss, shdata1.fc-sigma.xyz, 11071, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇰🇷 韩国标准 IEPL 中继 2 = ss, shdata1.fc-sigma.xyz, 11072, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇮🇩 印尼标准 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 11073, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇹🇭 泰国标准 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 11074, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇻🇳 越南标准 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 11075, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇮🇳 印度标准 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 11080, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇵🇰 巴基斯坦标准 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 11081, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇮🇱 以色列标准 IEPL 中继 1 = ss, bjdata1.fc-sigma.xyz, 11082, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇦🇪 阿联酋标准 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 11083, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇵🇭 菲律宾标准 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 11084, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇲🇾 马来西亚标准 IEPL 中继 1 = ss, gzdata1.fc-sigma.xyz, 11085, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+🇪🇬 埃及标准 IEPL 中继 1 = ss, bjdata1.fc-sigma.xyz, 11086, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
+
+[Proxy Group]
+Proxies = select, HK, JP, SG, TW, US, "Traffic: 65.5 GB | 400 GB", "Expire: 2025-04-26", "🇭🇰 香港实验性 IEPL 中继 1", "🇯🇵 日本实验性 IEPL 中继 1", "🇸🇬 新加坡实验性 IEPL 中继 1", "🇺🇸 美国实验性 IEPL 中继 1", "🇭🇰 香港高级 IEPL 中继 1", "🇭🇰 香港高级 IEPL 中继 2", "🇭🇰 香港高级 IEPL 中继 3", "🇯🇵 日本高级 IEPL 中继 1", "🇯🇵 日本高级 IEPL 中继 2", "🇯🇵 日本高级 IEPL 中继 3", "🇸🇬 新加坡高级 IEPL 中继 1", "🇸🇬 新加坡高级 IEPL 中继 2", "🇸🇬 新加坡高级 IEPL 中继 3", "🇨🇳 台湾高级 IEPL 中继 1", "🇨🇳 台湾高级 IEPL 中继 2", "🇨🇳 台湾高级 IEPL 中继 3", "🇺🇸 美国高级 IEPL 中继 1", "🇺🇸 美国高级 IEPL 中继 2", "🇺🇸 美国高级 IEPL 中继 3", "🇭🇰 香港标准 IEPL 中继 1", "🇭🇰 香港标准 IEPL 中继 2", "🇭🇰 香港标准 IEPL 中继 3", "🇭🇰 香港标准 IEPL 中继 4", "🇭🇰 香港标准 IEPL 中继 5", "🇭🇰 香港标准 IEPL 中继 6", "🇭🇰 香港标准 IEPL 中继 7", "🇭🇰 香港标准 IEPL 中继 8", "🇯🇵 日本标准 IEPL 中继 1", "🇯🇵 日本标准 IEPL 中继 2", "🇯🇵 日本标准 IEPL 中继 3", "🇯🇵 日本标准 IEPL 中继 4", "🇯🇵 日本标准 IEPL 中继 5", "🇯🇵 日本标准 IEPL 中继 6", "🇯🇵 日本标准 IEPL 中继 7", "🇯🇵 日本标准 IEPL 中继 8", "🇸🇬 新加坡标准 IEPL 中继 1", "🇸🇬 新加坡标准 IEPL 中继 2", "🇸🇬 新加坡标准 IEPL 中继 3", "🇸🇬 新加坡标准 IEPL 中继 4", "🇸🇬 新加坡标准 IEPL 中继 5", "🇸🇬 新加坡标准 IEPL 中继 6", "🇸🇬 新加坡标准 IEPL 中继 7", "🇸🇬 新加坡标准 IEPL 中继 8", "🇨🇳 台湾标准 IEPL 中继 1", "🇨🇳 台湾标准 IEPL 中继 2", "🇨🇳 台湾标准 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 1", "🇺🇸 美国标准 IEPL 中继 2", "🇺🇸 美国标准 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 4", "🇺🇸 美国标准 IEPL 中继 5", "🇺🇸 美国标准 IEPL 中继 6", "🇺🇸 美国标准 IEPL 中继 7", "🇺🇸 美国标准 IEPL 中继 8", "🇲🇩 摩尔多瓦标准 IEPL 中继 1", "🇺🇦 乌克兰标准 IEPL 中继 1", "🇮🇹 意大利标准 IEPL 中继 1", "🇭🇺 匈牙利标准 IEPL 中继 1", "🇪🇸 西班牙标准 IEPL 中继 1", "🇹🇷 土耳其标准 IEPL 中继 1", "🇩🇪 德国标准 IEPL 中继 1", "🇩🇪 德国标准 IEPL 中继 2", "🇬🇧 英国标准 IEPL 中继 1", "🇬🇧 英国标准 IEPL 中继 2", "🇳🇱 荷兰标准 IEPL 中继 1", "🇳🇱 荷兰标准 IEPL 中继 2", "🇫🇷 法国标准 IEPL 中继 1", "🇫🇷 法国标准 IEPL 中继 2", "🇨🇦 加拿大标准 IEPL 中继 1", "🇨🇦 加拿大标准 IEPL 中继 2", "🇦🇷 阿根廷标准 IEPL 中继 1", "🇧🇷 巴西标准 IEPL 中继 1", "🇨🇱 智利标准 IEPL 中继 1", "🇦🇺 澳大利亚标准 IEPL 中继 1", "🇳🇿 新西兰标准 IEPL 中继 1", "🇰🇷 韩国标准 IEPL 中继 1", "🇰🇷 韩国标准 IEPL 中继 2", "🇮🇩 印尼标准 IEPL 中继 1", "🇹🇭 泰国标准 IEPL 中继 1", "🇻🇳 越南标准 IEPL 中继 1", "🇮🇳 印度标准 IEPL 中继 1", "🇵🇰 巴基斯坦标准 IEPL 中继 1", "🇮🇱 以色列标准 IEPL 中继 1", "🇦🇪 阿联酋标准 IEPL 中继 1", "🇵🇭 菲律宾标准 IEPL 中继 1", "🇲🇾 马来西亚标准 IEPL 中继 1", "🇪🇬 埃及标准 IEPL 中继 1"
+YouTube = select, Proxies, HK, JP, SG, TW, US
+Netflix = select, Proxies, HK, JP, SG, TW, US
+Disney = select, Proxies, HK, JP, SG, TW, US
+Bahamut = select, Proxies, HK, TW
+Bilibili = select, DIRECT, HK, TW
+Spotify = select, Proxies, DIRECT, HK, JP, SG, TW, US
+Steam = select, Proxies, DIRECT, HK, JP, SG, TW, US
+Telegram = select, Proxies, HK, JP, SG, TW, US
+Google = select, Proxies, HK, JP, SG, TW, US
+Microsoft = select, Proxies, DIRECT, HK, JP, SG, TW, US
+OpenAI = select, Proxies, HK, JP, SG, TW, US
+PayPal = select, Proxies, DIRECT, HK, JP, SG, TW, US
+Apple = select, Proxies, DIRECT, HK, JP, SG, TW, US
+Final = select, Proxies, DIRECT
+HK = select, "🇭🇰 香港实验性 IEPL 中继 1", "🇭🇰 香港高级 IEPL 中继 1", "🇭🇰 香港高级 IEPL 中继 2", "🇭🇰 香港高级 IEPL 中继 3", "🇭🇰 香港标准 IEPL 中继 1", "🇭🇰 香港标准 IEPL 中继 2", "🇭🇰 香港标准 IEPL 中继 3", "🇭🇰 香港标准 IEPL 中继 4", "🇭🇰 香港标准 IEPL 中继 5", "🇭🇰 香港标准 IEPL 中继 6", "🇭🇰 香港标准 IEPL 中继 7", "🇭🇰 香港标准 IEPL 中继 8"
+JP = select, "🇯🇵 日本实验性 IEPL 中继 1", "🇯🇵 日本高级 IEPL 中继 1", "🇯🇵 日本高级 IEPL 中继 2", "🇯🇵 日本高级 IEPL 中继 3", "🇯🇵 日本标准 IEPL 中继 1", "🇯🇵 日本标准 IEPL 中继 2", "🇯🇵 日本标准 IEPL 中继 3", "🇯🇵 日本标准 IEPL 中继 4", "🇯🇵 日本标准 IEPL 中继 5", "🇯🇵 日本标准 IEPL 中继 6", "🇯🇵 日本标准 IEPL 中继 7", "🇯🇵 日本标准 IEPL 中继 8"
+SG = select, "🇸🇬 新加坡实验性 IEPL 中继 1", "🇸🇬 新加坡高级 IEPL 中继 1", "🇸🇬 新加坡高级 IEPL 中继 2", "🇸🇬 新加坡高级 IEPL 中继 3", "🇸🇬 新加坡标准 IEPL 中继 1", "🇸🇬 新加坡标准 IEPL 中继 2", "🇸🇬 新加坡标准 IEPL 中继 3", "🇸🇬 新加坡标准 IEPL 中继 4", "🇸🇬 新加坡标准 IEPL 中继 5", "🇸🇬 新加坡标准 IEPL 中继 6", "🇸🇬 新加坡标准 IEPL 中继 7", "🇸🇬 新加坡标准 IEPL 中继 8"
+TW = select, "🇨🇳 台湾高级 IEPL 中继 1", "🇨🇳 台湾高级 IEPL 中继 2", "🇨🇳 台湾高级 IEPL 中继 3", "🇨🇳 台湾标准 IEPL 中继 1", "🇨🇳 台湾标准 IEPL 中继 2", "🇨🇳 台湾标准 IEPL 中继 3"
+US = select, "🇺🇸 美国实验性 IEPL 中继 1", "🇺🇸 美国高级 IEPL 中继 1", "🇺🇸 美国高级 IEPL 中继 2", "🇺🇸 美国高级 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 1", "🇺🇸 美国标准 IEPL 中继 2", "🇺🇸 美国标准 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 4", "🇺🇸 美国标准 IEPL 中继 5", "🇺🇸 美国标准 IEPL 中继 6", "🇺🇸 美国标准 IEPL 中继 7", "🇺🇸 美国标准 IEPL 中继 8"
+
+[Rule]
+RULE-SET,https://ruleset.skk.moe/List/non_ip/ai.conf,SG // AI
+DOMAIN-KEYWORD,agoda,Proxies,extended-matching
+RULE-SET,https://raw.githubusercontent.com/blankmagic/surge/refs/heads/main/rule/AI.list,SG
+# Proxy
+PROCESS-NAME,v2ray,DIRECT
+PROCESS-NAME,ss-local,DIRECT
+
+# YouTube UDP REJECT
+AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT-NO-DROP
+
+# Zhihu
+DOMAIN,appcloud.zhihu.com,REJECT
+DOMAIN,appcloud2.in.zhihu.com,REJECT
+DOMAIN,crash2.zhihu.com,REJECT
+DOMAIN,mqtt.zhihu.com,REJECT
+DOMAIN,sugar.zhihu.com,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\?,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\?,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
+
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Unbreak.list,DIRECT,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list,YouTube,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list,Netflix,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list,Disney,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Bahamut.list,Bahamut,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list,Bilibili,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list,Spotify,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Game/Steam.list,Steam,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list,Telegram,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Google/Google.list,Google,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Microsoft/Microsoft.list,Microsoft,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/OpenAI/OpenAI.list,OpenAI,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/PayPal.list,PayPal,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list,Apple,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Global.list,Proxies,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/China.list,DIRECT,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/LocalAreaNetwork.list,DIRECT,"update-interval=86400"
+GEOIP,CN,DIRECT
+FINAL,Final
+
+[Host]
+ip6-localhost = ::1
+ip6-loopback = ::1
+doh.pub = server:119.29.29.29
+taobao.com = server:223.6.6.6
+*.taobao.com = server:223.6.6.6
+tmall.com = server:223.6.6.6
+*.tmall.com = server:223.6.6.6
+jd.com = server:119.29.29.29
+*.jd.com = server:119.28.28.28
+*.qq.com = server:119.28.28.28
+*.tencent.com = server:119.28.28.28
+*.alicdn.com = server:223.5.5.5
+aliyun.com = server:223.5.5.5
+*.aliyun.com = server:223.5.5.5
+weixin.com = server:119.28.28.28
+*.weixin.com = server:119.28.28.28
+bilibili.com = server:119.29.29.29
+*.bilibili.com = server:119.29.29.29
+hdslb.com = server:119.29.29.29
+163.com = server:119.29.29.29
+*.163.com = server:119.29.29.29
+126.com = server:119.29.29.29
+*.126.com = server:119.29.29.29
+*.126.net = server:119.29.29.29
+*.127.net = server:119.29.29.29
+*.netease.com = server:119.29.29.29
+mi.com = server:119.29.29.29
+*.mi.com = server:119.29.29.29
+xiaomi.com = server:119.29.29.29
+*.xiaomi.com = server:119.29.29.29
+routerlogin.net = server:syslib
+_hotspot_.m2m = server:syslib
+router.asus.com = server:syslib
+hotspot.cslwifi.com = server:syslib
+amplifi.lan = server:syslib
+*.lan = server:syslib
+
+[URL Rewrite]
+# AbeamTV Unlock header
+^https?:\/\/api\.[\w-]+\.abema-tv\.com\/v\d\/ip\/check - reject
+^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
+
+# Redirect Google Service
+^https?:\/\/(www.)?g\.cn https://www.google.com 302
+^https?:\/\/(www.)?google\.cn https://www.google.com 302
+
+# Redirect HTTP to HTTPS
+^https?:\/\/(www.)?taobao\.com\/ https://www.taobao.com/ 302
+^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
+^https?:\/\/(www.)?mi\.com\/ https://www.mi.com/ 302
+^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
+^https?:\/\/(www.)?suning\.com/ https://suning.com/ 302
+^https?:\/\/(www.)?yhd\.com https://yhd.com/ 302
+
+# Redirect False to True
+# >> IGN China to IGN Global
+^https?:\/\/(www.)?ign\.xn--fiqs8s\/ http://cn.ign.com/ccpref/us 302
+# >> Fake Website Made By Makeding
+^https?:\/\/(www.)?abbyychina\.com\/ http://www.abbyy.cn/ 302
+^https?:\/\/(www.)?bartender\.cc\/ https://cn.seagullscientific.com 302
+^https?:\/\/(www.)?betterzip\.net\/ https://macitbetter.com/ 302
+^https?:\/\/(www.)?beyondcompare\.cc\/ https://www.scootersoftware.com/ 302
+^https?:\/\/(www.)?bingdianhuanyuan\.cn\/ http://www.faronics.com/zh-hans/ 302
+^https?:\/\/(www.)?chemdraw\.com\.cn\/ http://www.cambridgesoft.com/ 302
+^https?:\/\/(www.)?codesoftchina\.com\/ https://www.teklynx.com/ 302
+^https?:\/\/(www.)?coreldrawchina\.com\/ https://www.coreldraw.com/cn/ 302
+^https?:\/\/(www.)?crossoverchina\.com\/ https://www.codeweavers.com/ 302
+^https?:\/\/(www.)?easyrecoverychina\.com\/ https://www.ontrack.com/ 302
+^https?:\/\/(www.)?ediuschina\.com\/ https://www.grassvalley.com/ 302
+^https?:\/\/(www.)?flstudiochina\.com\/ https://www.image-line.com/flstudio/ 302
+^https?:\/\/(www.)?formysql\.com\/ https://www.navicat.com.cn 302
+^https?:\/\/(www.)?guitarpro\.cc\/ https://www.guitar-pro.com/ 302
+^https?:\/\/(www.)?huishenghuiying\.com\.cn\/ https://www.corel.com/cn/ 302
+^https?:\/\/(www.)?iconworkshop\.cn\/ https://www.axialis.com/iconworkshop/ 302
+^https?:\/\/(www.)?imindmap\.cc\/ https://imindmap.com/zh-cn/ 302
+^https?:\/\/(www.)?jihehuaban\.com\.cn\/ https://sketch.io/ 302
+^https?:\/\/(www.)?keyshot\.cc\/ https://www.keyshot.com/ 302
+^https?:\/\/(www.)?mathtype\.cn\/ http://www.dessci.com/en/products/mathtype/ 302
+^https?:\/\/(www.)?mindmanager\.cc\/ https://www.mindjet.com/ 302
+^https?:\/\/(www.)?mindmapper\.cc\/ https://mindmapper.com 302
+^https?:\/\/(www.)?mycleanmymac\.com\/ https://macpaw.com/cleanmymac 302
+^https?:\/\/(www.)?nicelabel\.cc\/ https://www.nicelabel.com/ 302
+^https?:\/\/(www.)?ntfsformac\.cc\/ https://www.tuxera.com/products/tuxera-ntfs-for-mac-cn/ 302
+^https?:\/\/(www.)?ntfsformac\.cn\/ https://www.paragon-software.com/ufsdhome/zh/ntfs-mac/ 302
+^https?:\/\/(www.)?overturechina\.com\/ https://sonicscores.com/overture/ 302
+^https?:\/\/(www.)?passwordrecovery\.cn\/ https://cn.elcomsoft.com/aopr.html 302
+^https?:\/\/(www.)?pdfexpert\.cc\/ https://pdfexpert.com/zh 302
+^https?:\/\/(www.)?ultraiso\.net\/ https://cn.ezbsystems.com/ultraiso/ 302
+^https?:\/\/(www.)?vegaschina\.cn\/ https://www.vegas.com/ 302
+^https?:\/\/(www.)?xmindchina\.net\/ https://www.xmind.cn/ 302
+^https?:\/\/(www.)?xshellcn\.com\/ https://www.netsarang.com/products/xsh_overview.html 302
+^https?:\/\/(www.)?yuanchengxiezuo\.com\/ https://www.teamviewer.com/zhcn/ 302
+^https?:\/\/(www.)?zbrushcn\.com\/ http://pixologic.com/ 302
+^https://aweme-eagle(.*)\.snssdk\.com/aweme/v2/ https://aweme-eagle$1.snssdk.com/aweme/v1/ 302
+
+# JD Protection header
+^https?:\/\/coupon\.m\.jd\.com\/ https://coupon.m.jd.com/ 302
+^https?:\/\/h5\.m\.jd\.com\/ https://h5.m.jd.com/ 302
+^https?:\/\/item\.m\.jd\.com\/ https://item.m.jd.com/ 302
+^https?:\/\/m\.jd\.com\/ https://m.jd.com/ 302
+^https?:\/\/newcz\.m\.jd\.com\/ https://newcz.m.jd.com/ 302
+^https?:\/\/p\.m\.jd\.com\/ https://p.m.jd.com/ 302
+^https?:\/\/so\.m\.jd\.com\/ https://so.m.jd.com/ 302
+^https?:\/\/union\.click\.jd\.com\/jda? "http://union.click.jd.com/jda?adblock=" header
+^https?:\/\/union\.click\.jd\.com\/sem.php? "http://union.click.jd.com/sem.php?adblock=" header
+^https?:\/\/www.jd.com\/ https://www.jd.com/ 302
+
+# Wiki
+# "^https://zh.(m.)?wikipedia.org/zh(-\w*)?(?=/)" https://www.wikiwand.com/zh$2 302
+# ^https://(\w*).(m.)?wikipedia.org/wiki https://www.wikiwand.com/$1 302
+
+# Resso
+
+"(?<=(carrier|account|sys|sim)_region=)cn" in 307
+
+# Advertising Block header
+
+# >> 2048Puzzle header
+^https?:\/\/a\.applovin\.com\/3\.0\/ad - reject
+
+# >> 4gTV header
+^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/GetAD - reject
+^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/ADLog - reject
+
+# >> 58 header
+^https?:\/\/.+\.58cdn\.com\.cn\/brandads\/ - reject
+^https?:\/\/app\.58\.com\/api\/home\/advertising\/ - reject
+^https?:\/\/app\.58\.com\/api\/home\/appadv\/ - reject
+^https?:\/\/app\.58\.com\/api\/home\/invite\/popupAdv - reject
+^https?:\/\/app\.58\.com\/api\/log\/ - reject
+
+# >> AcFun header
+^https?:\/\/aes\.acfun\.cn\/s\?adzones - reject
+
+# >> Ai NanNing
+^https?:\/\/nnapp\.cloudbae\.cn\/mc\/api\/advert/ - reject
+
+# >> Aihuishou header
+^https?:\/\/gw\.aihuishou\.com\/app-portal\/home\/getadvertisement - reject
+
+# >> AMap header
+^https?:\/\/m\d{1}\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ - reject
+
+# >> Baicizhan header
+^https?:\/\/7n\.bczcdn\.com\/launchad\/ - reject
+
+# >> Baidu header
+^https?:\/\/.+\/client\/phpui2\/ - reject
+^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ - reject
+^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule - reject
+^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/ - reject
+^https?:\/\/update\.pan\.baidu\.com\/statistics - reject
+
+# >> Baobao header
+^https?:\/\/www\.myhug\.cn\/ad\/ - reject
+
+# >> Beike Zhaofang
+^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage - reject
+
+# >> Beitaicuhfang header
+^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v\d\/promote\/ios\/start\/page - reject
+
+# >> Bi ShiJie
+^https?:\/\/iapi\.bishijie\.com\/actopen\/advertising\/ - reject
+
+# >> Bilibili header
+^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ - reject
+
+# >> ByteDance header
+^https?:\/\/.+\.(musical|snssdk)\.(com|ly)\/(api|motor)\/ad\/ - reject
+^https?:\/\/.+\.pstatp\.com\/img\/ad - reject
+^https?:\/\/.+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/v\d\/ - reject
+^https?:\/\/dsp\.toutiao\.com\/api\/xunfei\/ads\/ - reject
+
+# >> CamScanner header
+^https?:\/\/api\.intsig\.net\/user\/cs\/operating\/app\/get_startpic\/ - reject
+
+# >> Caocao Chuxin
+^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/ - reject
+
+# >> Chelaile header
+^https?:\/\/(api|atrace)\.chelaile\.net\.cn\/adpub\/ - reject
+^https?:\/\/api\.chelaile\.net\.cn\/goocity\/advert\/ - reject
+^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image - reject
+^https?:\/\/pic1\.chelaile\.net\.cn\/adv\/ - reject
+
+# >> ChinaMobile header
+^https?:\/\/app\.10086\.cn\/biz-orange\/DN\/(findSale|homeSale)\/getsaleAdver - reject
+
+# >> ChinaUnicom header
+^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm - reject
+^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getWelcomeAd|getHomePageAd) - reject
+
+# >> CNTV header
+"^https?:\/\/asp\.cntv\.myalicdn\.com\/.+\?maxbr=850" - reject
+"^https?:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+\?maxbr=850" - reject
+^https?:\/\/v\.cctv\.com\/.+850 - reject
+^https?:\/\/www\.cntv\.cn\/nettv\/adp\/ - reject
+
+# >> DanDan Zan
+^https?:\/\/www\.dandanzan\.com\/res\/gdsefse\.js - reject
+
+# >> DangDang header
+"^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init" - reject
+
+# >> DayDayCook header
+^https?:\/\/api\.daydaycook\.com\.cn\/daydaycook\/server\/ad\/ - reject
+^https?:\/\/cms\.daydaycook\.com\.cn\/api\/cms\/advertisement\/ - reject
+
+# >> eLong header
+^https?:\/\/mobile-api2011\.elong\.com\/(adgateway|adv)\/ - reject
+"^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/(adgateway|adv)\/" - reject
+
+# >> Facebook header
+^https?:\/\/www\.facebook\.com\/.+video_click_to_advertiser_site - reject
+
+# >> Fliggy header
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/ - reject
+
+# >> Flyer Tea
+"^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis" - reject
+
+# >> Foodie header
+^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview - reject
+
+# >> FOTOABLE header
+^https?:\/\/cdn\.api\.fotoable\.com\/Advertise\/ - reject
+
+# >> Gofun header
+^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json - reject
+
+# >> Google header
+^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat - reject
+^https?:\/\/.+\.youtube\.com\/api\/stats\/ads - reject
+^https?:\/\/.+\.youtube\.com\/get_midroll - reject
+^https?:\/\/.+\.youtube\.com\/get_midroll_ - reject
+^https?:\/\/.+\.youtube\.com\/pagead\/ - reject
+^https?:\/\/.+\.youtube\.com\/ptracking - reject
+^https?:\/\/.+\.youtube\.com\/ptracking\? - reject
+^https?:\/\/pagead2.googlesyndication.com\/pagead\/js\/? - reject
+^https?:\/\/pagead2.googlesyndication.com\/pagead\/js\/? - reject
+^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite - reject
+^https?:\/\/www.google-analytics.com\/analytics.js - reject
+^https?:\/\/www.google-analytics.com\/analytics.js - reject
+^https?:\/\/youtubei\.googleapis\.com/.+ad_break - reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ - reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ - reject
+
+# >> Hangzhou Bus
+^https?:\/\/m\.ibuscloud.com\/v\d\/app\/getStartPage - reject
+
+# >> Hangzhou Citizen Card
+^https?:\/\/smkmp\.96225.com\/smkcenter\/ad/ - reject
+
+# >> Hupu header
+^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/(interfaceAdMonitor|interfaceAd)\/ - reject
+^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/status\/init - reject
+
+# >> IdleFish header
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/ - reject
+
+# >> iFlytek header
+^https?:\/\/imeclient\.openspeech\.cn\/adservice\/ - reject
+
+# >> iQiyi header
+^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show.do - reject
+^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v\d\/show - reject
+^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo - reject
+^https?:\/\/t7z\.cupid\.iqiyi\.com\/mixer\? - reject
+
+# >> JD header
+^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
+"^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start" - reject
+^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo - reject
+
+# >> Jiemian header
+^https?:\/\/img\.jiemian\.com\/ads\/ - reject
+
+# >> JXEDT header
+^https?:\/\/api\.jxedt\.com\/ad\/ - reject
+^https?:\/\/richmanapi\.jxedt\.com\/api\/ad\/ - reject
+
+# >> Keep header
+^https?:\/\/static1\.keepcdn\.com\/.+\d{3}x\d{4} - reject
+^https?:\/\/api\.gotokeep\.com\/ads\/ - reject
+
+# >> KFC header
+^https?:\/\/res\.kfc\.com\.cn\/advertisement\/ - reject
+
+# >> Kingsoft header
+^https?:/\/\counter\.ksosoft.com\/ad\.php - reject
+^https?:\/\/.+\.kingsoft-office-service\.com\/ad - reject
+^https?:\/\/counter\.ksosoft\.com\/ad\.php - reject
+"^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?.+(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController)" - reject
+^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
+^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ - reject
+^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson - reject
+
+# >> KouBei header
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/ - reject
+^https?:\/\/render\.alipay\.com\/p\/s\/h5data\/prod\/spring-festival-2019-h5data\/popup-h5data\.json - reject
+
+# >> Kuaikan Comic
+^https?:\/\/api\.kkmh\.com\/.+(ad|advertisement)\/ - reject
+
+# >> Kuwo header
+"^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/EcomResourceServer/AdPlayPage/adinfo" - reject
+"^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/MobileAdServer\/" - reject
+
+# >> Le header
+^https?:\/\/.+\/letv-gug\/ - reject
+
+# >> Luckin Coffee
+^https?:\/\/.+\/resource\/m\/promo\/adsense - reject
+^https?:\/\/.+\/resource\/m\/sys\/app\/adpos - reject
+
+# >> MaFengWo header
+^https?:\/\/mapi\.mafengwo\.cn\/ad\/ - reject
+^https?:\/\/mapi\.mafengwo\.cn\/travelguide\/ad\/ - reject
+
+# >> Mahua Video
+^https?:\/\/.+\/api\/app\/member\/ver2\/user\/login\/ - reject
+
+
+# >> Maiduidui header
+^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/ - reject
+
+# >> Manhuaren header
+^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds - reject
+
+
+# >> Meituan header
+^https?:\/\/img\.meituan\.net\/midas\/ - reject
+^https?:\/\/p([0-9])\.meituan\.net\/(mmc|wmbanner)\/ - reject
+^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|linglong|mmc|wmbanner)\/ - reject
+^https?:\/\/s3plus\.meituan\.net\/.+\/linglong\/ - reject
+
+# >> Meiweibuyongdeng header
+^https?:\/\/capi.mwee.cn/app-api/V12/app/getstartad - reject
+
+# >> MI header
+^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
+^https?:\/\/api\.jr\.mi\.com\/v\d\/adv\/ - reject
+^https?:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen - reject
+
+# >> MI Fit
+^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/homepage_ad\? - reject
+^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sleep_ad\? - reject
+^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sport_ad\? - reject
+^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sport_summary_ad\? - reject
+^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sport_training_ad\? - reject
+^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/step_detail_ad\? - reject
+^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/training_video_ad\? - reject
+
+# >> Miaopai header
+^https?:\/\/b-api\.ins\.miaopai\.com\/1\/ad/ - reject
+
+# >> MIgu header
+^https?:\/\/.+\/v\d\/iflyad\/ - reject
+^https?:\/\/.+\/cdn-adn\/ - reject
+^https?:\/\/ggic\.cmvideo\.cn\/ad\/ - reject
+^https?:\/\/ggic2\.cmvideo\.cn\/ad\/ - reject
+^https?:\/\/.+/img\/ad\.union\.api\/ - reject
+
+# >> MixC header
+^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad - reject
+
+# >> MogoRenter header
+^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage - reject
+
+# >> MojiWeather header
+^https?:\/\/cdn\.moji\.com\/(adoss|adlink)\/ - reject
+
+# >> Myhug header
+^https?:\/\/www\.myhug\.cn\/ad\/ - reject
+
+# >> NationalGeographic header
+^https?:\/\/dili\.bdatu\.com\/jiekou\/ad\/ - reject
+
+# >> NationalGeographicChina header
+^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/ - reject
+
+# >> NetEase header
+^https?:\/\/.+\/eapi\/(ad|log)\/ - reject
+^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds - reject
+^https?:\/\/c\.m\.163\.com\/nc\/gl\/ - reject
+^https?:\/\/dsp-impr2\.youdao\.com\/adload.s\? - reject
+^https?:\/\/oimage([a-z])([0-9])\.ydstatic\.com\/.+adpublish - reject
+^https?:\/\/sp\.kaola\.com\/api\/openad - reject
+^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json - reject
+
+# >> ofo header
+^https?:\/\/supportda\.ofo\.com\/adaction\? - reject
+^https?:\/\/ma\.ofo\.com\/ads\/ - reject
+^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v\d\/ads - reject
+^https?:\/\/ma\.ofo\.com\/adImage\/ - reject
+
+# >> PConline header
+^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/ - reject
+^https?:\/\/mrobot\.pcauto\.com\.cn\/v\d\/ad2p - reject
+^https?:\/\/mrobot\.pcauto\.com\.cn\/xsp\/s\/auto\/info\/preload\.xsp - reject
+^https?:\/\/mrobot\.pconline\.com\.cn\/s\/onlineinfo\/ad\/ - reject
+^https?:\/\/mrobot\.pconline\.com\.cn\/v\d\/ad2p - reject
+
+# >> PeanutWiFiMpass header
+^https?:\/\/cmsapi\.wifi8\.com\/v\d{1}\/(emptyAd|adNew)\/ - reject
+
+# >> Qdaily header
+^https?:\/\/app3\.qdaily\.com\/app3\/boot_advertisements\.json - reject
+^https?:\/\/notch\.qdaily\.com\/api\/v\d\/boot_ad - reject
+
+# >> Qiongou header
+^https?:\/\/media\.qyer\.com\/ad\/ - reject
+^https?:\/\/open\.qyer.com\/qyer\/config\/get - reject
+^https?:\/\/open\.qyer\.com\/qyer\/startpage\/ - reject
+
+# >> Qiuduoduo header
+^https?:\/\/api\.qiuduoduo\.cn\/guideimage - reject
+
+# >> Renren Video
+^https?:\/\/api\.rr\.tv\/ad\/ - reject
+^https?:\/\/api\.videozhishi\.com\/api\/getAdvertising - reject
+^https?:\/\/msspjh\.emarbox\.com\/getAdConfig - reject
+
+# >> ShiHuo header
+^https?:\/\/www\.shihuo\.cn\/app3\/saveAppInfo - reject
+
+# >> 首汽约车 header
+^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/car-rest\/webservice\/passenger\/recommendADs - reject
+^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passenger-token\/leachtoken\/webservice\/homepage\/queryADs - reject
+
+# >> Sina header
+"^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv" - reject
+
+# >> Sina Weather
+^https?:\/\/tqt\.weibo\.cn\/.+advert\.index - reject
+^https?:\/\/tqt\.weibo\.cn\/api\/advert\/ - reject
+"^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=tqtad" - reject
+"^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=tqt_sdkad" - reject
+
+# >> Sina Weibo
+^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php - reject
+^https?:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua - reject
+^https?:\/\/sdkapp\.uve\.weibo\.com/\interface\/sdk\/actionad\.php - reject
+
+# >> SMZDM header
+^https?:\/\/api\.smzdm\.com\/v\d\/util\/loading - reject
+
+# >> Snail Sleep
+^https?:\/\/snailsleep\.net\/snail\/v\d\/adTask\/ - reject
+^https?:\/\/snailsleep\.net\/snail\/v\d\/screen\/qn\/get\? - reject
+
+# >> Sohu header
+^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense - reject
+^https?:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
+^https?:\/\/hui\.sohu\.com\/predownload2/\? - reject
+^https?:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/ - reject
+^https?:\/\/s1\.api\.tv\.itc\.cn\/v\d\/mobile\/control\/switch\.json - reject
+
+# >> StarFans header
+^https?:\/\/a\.sfansclub\.com\/business\/t\/ad\/ - reject
+^https?:\/\/a\.sfansclub\.com\/business\/t\/boot\/screen\/index - reject
+
+# >> TaPiaoPiao header
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/ - reject
+
+# >> Tencent Futu Securities
+^https?:\/\/api5\.futunn\.com\/ad\/ - reject
+
+# >> Tencent Game
+^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info - reject
+^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons - reject
+
+# >> Tencent Maps
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ - reject
+"^https?:\/\/newsso\.map\.qq\.com\/\?&attime=" - reject
+
+# >> Tencent News
+^https?:\/\/r\.inews\.qq\.com\/adsBlacklist - reject
+^https?:\/\/r\.inews\.qq\.com\/getFullScreenPic - reject
+^https?:\/\/r\.inews\.qq\.com\/getQQNewsRemoteConfig - reject
+
+# >> Tencent QQLive
+"^https?:\/\/.+\.mp4\?cdncode=.+&guid=" - reject
+"^https?:\/\/.+\.mp4\?cdncode=.+&sdtfrom=v3004" - reject
+^https?:\/\/btrace.qq.com - reject
+^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
+
+# >> Tencent WeChat
+^https?:\/\/mp\.weixin\.qq.com\/mp\/advertisement_report - reject
+^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_complaint - reject
+^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_video - reject
+
+# >> The Paper
+"^https?:\/\/adpai\.thepaper\.cn\/.+&ad=" - reject
+
+# >> Thunder header
+^https?:\/\/images\.client\.vip\.xunlei\.com\/.+\/advert\/ - reject
+
+# >> tskscn header
+^https?:\/\/47\.97\.20\.12\/ad\/ - reject
+
+# >> TV_Home header
+^https?:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/ad\/ - reject
+
+# >> txffp header
+^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
+
+# >> UC header
+^https?:\/\/huichuan\.sm\.cn\/jsad - reject
+^https?:\/\/iflow\.uczzd\.cn\/log\/ - reject
+
+# >> Variflight header
+^https:\/\/app\.variflight\.com\/v4\/advert\/ - reject
+
+# >> VUE header
+^https?:\/\/static\.vuevideo\.net\/styleAssets\/.+\/splash_ad - reject
+^https?:\/\/static\.vuevideo\.net\/styleAssets\/advertisement\/ - reject
+
+# >> WallStreetCN header
+^https?:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/ - reject
+
+# >> WeDoctor header
+^https?:\/\/app\.wy\.guahao\.com\/json\/white\/dayquestion\/getpopad - reject
+
+# >> Weico header
+"^https?:\/\/overseas\.weico\.cc/portal\.php\?a=get_coopen_ads" - reject
+
+# >> WeiDian header
+^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/ - reject
+
+# >> WiFi Share Master
+^https?:\/\/nochange\.ggsafe\.com\/ad\/ - reject
+
+# >> WIFI8 header
+^https?:\/\/cmsapi\.wifi8\.com\/v\d\/emptyAd\/info - reject
+^https?:\/\/cmsapi\.wifi8\.com\/v\d\/adNew\/config - reject
+
+# >> Wuta Cam
+^https?:\/\/api-release\.wuta-cam\.com\/ad_tree - reject
+^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json - reject
+
+# >> Xiachufang header
+^https?:\/\/api\.xiachufang\.com\/v\d\/ad/ - reject
+
+# >> Xiami music
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit\/ - reject
+
+# >> Xianyu header
+^https?:\/\/gw\.alicdn\.com\/mt\/ - reject
+"^https?:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4}" - reject
+"^https?:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4}" - reject
+
+# >> Xiao Shuimian
+^https?:\/\/api\.psy-1\.com\/cosleep\/startup - reject
+
+# >> Ximalaya header
+"^https?:\/\/adse.+\.com\/[a-z]{4}\/loading\?appid=" - reject
+"^https?:\/\/adse\.ximalaya\.com\/ting\/feed\?appid=" - reject
+"^https?:\/\/adse\.ximalaya\.com\/ting\/loading\?appid=" - reject
+"^https?:\/\/adse\.ximalaya\.com\/ting\?appid=" - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group21\/M03\/E7\/3F\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group21\/M0A\/95\/3B\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group22\/M00\/92\/FF\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group22\/M05\/66\/67\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group22\/M07\/76\/54\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group23\/M01\/63\/F1\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group23\/M04\/E5\/F6\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group23\/M07\/81\/F6\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group23\/M0A\/75\/AA\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group24\/M03\/E6\/09\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group24\/M07\/C4\/3D\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group25\/M05\/92\/D1\/ - reject
+
+# >> Xunyou Booster
+^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls) - reject
+^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d{1}\/ios\/ads\/ - reject
+
+# >> Yahoo! header
+^https?:\/\/m\.yap\.yahoo\.com\/v18\/getAds\.do - reject
+
+# >> Yingshi Cloud Video
+^https?:\/\/i\.ys7\.com\/api\/ads - reject
+
+# >> YOUKU header
+"^https?:\/\/.+\.mp4\?ccode=0902" - reject
+"^https?:\/\/.+\.mp4\?sid=" - reject
+
+# >> Youtube++ header
+^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/ - reject
+
+# >> Yundongshijie header
+^https?:\/\/.+\.iydsj\.com\/api\/.+\/ad - reject
+
+# >> YYeTs header
+^https?:\/\/ctrl\.(playcvn|zmzapi)\.(com|net)\/app\/(ads|init) - reject
+
+# >> Zhiboba header
+^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
+^https?:\/\/.+\/allOne\.php\?ad_name - reject
+
+# >> Zhihu header
+^https?:\/\/www\.zhihu\.com\/terms\/privacy\/confirm - reject
+^https?:\/\/api\.zhihu\.com\/market\/popover - reject
+^https?:\/\/api\.zhihu\.com\/search\/(top|tab|preset) - reject
+^https?:\/\/api\.zhihu\.com\/(launch|ad-style-service|app_config|real_time|ab\/api) - reject
+^https?:\/\/api\.zhihu\.com\/commercial_api\/(launch|real_time) - reject
+^https?:\/\/(api|www)\.zhihu\.com\/.*(featured-comment-ad|recommendations|community-ad) - reject
+^https?:\/\/(api|www)\.zhihu\.com\/(fringe|adx|commercial|ad-style-service|banners|mqtt) - reject
+
+# >> Zhuishushenqi header
+^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
+^https?:\/\/api01pbmp\.zhuishushenqi\.com\/gameAdvert - reject
+^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage - reject
+^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage - reject
+^https?:\/\/api\.zhuishushenqi\.com\/recommend - reject
+^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios - reject
+^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated - reject
+^https?:\/\/b\.zhuishushenqi\.com\/advert - reject
+^https?:\/\/dspsdk\.abreader\.com\/v\d\/api\/ad\? - reject
+"^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903" - reject
+^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
+
+[MITM]
+hostname = *.abema.tv, *.music.163.com, *.music.126.net, *.chelaile.net.cn, *.didistatic.com, *.google-analytics.com, *.googlevideo.com, *.iydsj.com, *.k.sohu.com, *.kfc.com, *.kingsoft-office-service.com, *.meituan.net, *.ofo.com, *.pixiv.net, *.pstatp.com, *.snssdk.com, *.uve.weibo.com, *.wikipedia.org, *.wikiwand.com, *.ydstatic.com, *.youdao.com, *.youtube.com, *.zhuishushenqi.com, 119.18.193.135, 123.59.31.1, 153.3.236.81, 180.101.212.22, 218.11.3.70, 59.151.53.6, a.apicloud.com, a.applovin.com, a.qiumibao.com, a.sfansclub.com, a.wkanx.com, abema.tv, acs.m.taobao.com, act.vip.iqiyi.com, adse.ximalaya.com, api*.musical.ly, api-release.wuta-cam.com, api.abema.io, api.bilibili.com, api.daydaycook.com.cn, api.gotokeep.com, api.intsig.net, api.jr.mi.com, api.jxedt.com, api.kkmh.com, api.m.jd.com, api.mgzf.com, api.psy-1.com, api.rr.tv, api.smzdm.com, api.tv.sohu.com, api.wallstreetcn.com, api.weibo.cn, api.xiachufang.com, api.zhihu.com, api.zhuishushenqi.com, api5.futunn.com, app.10086.cn, app.58.com, app.api.ke.com, app.bilibili.com, app.mixcapp.com, app.variflight.com, app.wy.guahao.com, b.zhuishushenqi.com, c.m.163.com, cap.caocaokeji.cn, capi.mwee.cn, cdn.moji.com, channel.beitaichufang.com, client.mail.163.com, cms.daydaycook.com.cn, dspsdk.abreader.com, fdfs.xmcdn.com, gateway.shouqiev.com, gw-passenger.01zhuanche.com, gw.alicdn.com, huichuan.sm.cn, i.weread.qq.com, i.ys7.com, iapi.bishijie.com, iface.iqiyi.com, img*.doubanio.com, img.jiemian.com, interface.music.163.com, ios.wps.cn, m*.amap.com, m.client.10010.com, m.creditcard.ecitic.com, m.ibuscloud.com, m.yap.yahoo.com, mapi.mafengwo.cn, mapi.weibo.com, media.qyer.com, mi.gdt.qq.com, mob.mddcloud.com.cn, mobile-api2011.elong.com, mp.weixin.qq.com, mrobot.pcauto.com.cn, mrobot.pconline.com.cn, ms.jr.jd.com, msspjh.emarbox.com, music.163.com, music.126.net, newsso.map.qq.com, nnapp.cloudbae.cn, open.qyer.com, portal-xunyou.qingcdn.com, pss.txffp.com, r.inews.qq.com, render.alipay.com, res-release.wuta-cam.com, richmanapi.jxedt.com, service.4gtv.tv, smkmp.96225.com, snailsleep.net, sp.kaola.com, ssl.kohsocialapp.qq.com, static.vuevideo.net, static1.keepcdn.com, support.you.163.com, thor.weidian.com, www.dandanzan.com, www.flyertea.com, www.zhihu.com, youtubei.googleapis.com, zhidao.baidu.com
+ca-passphrase = 0651263F
+ca-p12 = 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
+
+[Script]
+
+wb_ad = requires-body=true,script-path=https://subweb.s3.fr-par.scw.cloud/Script/wb_ad,script-update-interval=86400,type=http-response,pattern=^https?:\/\/(api|mapi)\.weibo\.(cn|com)\/2(\/groups\/timeline|\/statuses\/unread|\/statuses\/extend|\/comments\/build_comments|\/photo\/recommend_list|\/stories\/video_stream|\/statuses\/positives\/get|\/stories\/home_list|\/profile\/statuses|\/statuses\/friends\/timeline|\/service\/picfeed)
+wb_launch = requires-body=true,script-path=https://subweb.s3.fr-par.scw.cloud/Script/wb_launch,script-update-interval=86400,type=http-response,pattern=^https?:\/\/(sdk|wb)app\.uve\.weibo\.com(\/interface\/sdk\/sdkad.php|\/wbapplua\/wbpullad.lua)
+
+RRad = max-size=524288,requires-body=true,script-path=https://subweb.s3.fr-par.scw.cloud/Script/RRad,script-update-interval=86400,type=http-response,pattern=^https:\/\/api\.rr\.tv[\s\S]*(channel|Feed|Choice|profile|Medal)
+
+# Onewayticket255
+pixiv_premium = requires-body=1,max-size=0,script-path=https://subweb.s3.fr-par.scw.cloud/Script/pixiv_premium,script-update-interval=86400,type=http-response,pattern=https://oauth.secure.pixiv.net/auth/token
+
+surge_abematv_web = requires-body=1,max-size=-1,script-path=https://subweb.s3.fr-par.scw.cloud/Script/surge_abematv_web,script-update-interval=86400,type=http-response,pattern=https://abema.tv/.*
