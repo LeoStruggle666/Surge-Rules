@@ -1,3 +1,5 @@
+# 更新时间：2025年3月27日03:25:02
+
 [General]
 bypass-system = true
 skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,17.0.0.0/8,localhost,*.local,passenger.t3go.cn
