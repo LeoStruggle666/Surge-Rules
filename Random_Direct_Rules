@@ -16,3 +16,4 @@ DOMAIN-SUFFIX,jianguoyun.com
 DOMAIN-SUFFIX,reflix.top
 DOMAIN-SUFFIX,xmax.vip
 DOMAIN,geosite:googlefcm
+PROCESS-NAME,/Applications/BambuStudio.app/Contents/MacOS/BambuStudio
