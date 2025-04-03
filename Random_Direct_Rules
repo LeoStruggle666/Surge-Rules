@@ -1,19 +1,28 @@
-# > 需要直连的规则
-# 更新时间：2025年4月3日21:54:29
+# 需要直连的规则
+# 更新时间：2025年4月3日22:19:38
 
-DOMAIN-KEYWORD,jupyterhub
-DOMAIN-KEYWORD,atomecorp
-DOMAIN-KEYWORD,adancergroup
-DOMAIN-KEYWORD,larksuite
-DOMAIN-KEYWORD,aaflamingo
+# 数据科学与开发工具规则
 DOMAIN-KEYWORD,jupyterhub
 DOMAIN-KEYWORD,archery
 DOMAIN-KEYWORD,advai
+
+# 协作与办公工具规则
+DOMAIN-KEYWORD,larksuite
 DOMAIN-KEYWORD,lark
+DOMAIN-KEYWORD,aaflamingo
+DOMAIN-KEYWORD,atomecorp
+DOMAIN-KEYWORD,adancergroup
 DOMAIN,meican.com
+DOMAIN-KEYWORD,meican
+
+# 媒体与文件存储规则
 DOMAIN-SUFFIX,emby999.com
 DOMAIN-SUFFIX,jianguoyun.com
 DOMAIN-SUFFIX,reflix.top
 DOMAIN-SUFFIX,xmax.vip
+
+# 通讯与谷歌相关服务规则
 DOMAIN,geosite:googlefcm
+
+# 应用程序规则
 PROCESS-NAME,/Applications/BambuStudio.app/Contents/MacOS/BambuStudio
