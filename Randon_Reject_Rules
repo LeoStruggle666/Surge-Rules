@@ -4,3 +4,5 @@
 PROCESS-NAME,/Applications/Adobe Photoshop 2024/Adobe Photoshop 2024.app/Contents/MacOS/Adobe Photoshop 2024
 PROCESS-NAME,/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/libs/Creative Cloud Content Manager.node
 PROCESS-NAME,/Applications/CorelDRAW Graphics Suite 2022/CorelDRAW.app/Contents/MacOS/CorelDRW
+DOMAIN-KEYWORD,adobe
+DOMAIN-SUFFIX,adobe.com
