@@ -117,6 +117,7 @@ dns-server = 114.114.114.114, system
 GoogleFCM = select, DIRECT, Proxies, HK, JP, SG, TW, US
 RandomDirect = select, DIRECT, Proxies, HK, JP, SG, TW, US
 RandomProxy = select, DIRECT, Proxies, HK, JP, SG, TW, US
+RandomReject = select, REJECT, REJECT-TINYGIF
 AI = select, Proxies, HK, JP, SG, TW, US
 YouTube = select, DIRECT, Proxies, HK, JP, SG, TW, US
 Netflix = select, DIRECT, Proxies, HK, JP, SG, TW, US
@@ -137,19 +138,21 @@ US = select, "🇺🇸 美国实验性 IEPL 中继 1", "🇺🇸 美国高级 IE
 
 [Rule]
 PROCESS-NAME,/Applications/ChatGPT.app/Contents/MacOS/ChatGPT,AI
+
 # Google FCM
 RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/FCM,DIRECT,"update-interval=86400"
 
-PROCESS-NAME,"/Applications/Lark.app/Contents/Frameworks/Lark Framework.framework/Versions/109.0.5414.128/Helpers/Lark Helper (Iron).app/Contents/MacOS/Lark Helper (Iron)",DIRECT
-PROCESS-NAME,"/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/125.0.6422.142/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper",DIRECT
 # Steam
 PROCESS-NAME,"/Users/leolau/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/Frameworks/Steam Helper.app/Contents/MacOS/Steam Helper",HK
+
 PROCESS-NAME,"/Users/leolau/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/steam_osx",HK
 PROCESS-NAME,"/Users/leolau/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/streaming_client",HK
 # 随机掉落Direct规则
 RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Direct_Rules,RandomDirect,"update-interval=86400"
 # 随机掉落Proxy规则
 RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Proxy_Rules,RandomProxy,"update-interval=86400"
+# 随机掉落Reject规则
+RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Randon_Reject_Rules,RandomReject,"update-interval=86400"
 
 # Proxy
 PROCESS-NAME,v2ray,DIRECT
