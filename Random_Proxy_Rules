@@ -1,14 +1,15 @@
-# > 随机掉落的规则
-# 更新时间：2025年4月3日02:38:34
-# 需要代理的规则
+# 随机掉落的Proxy规则
+# 更新时间：2025年4月3日22:18:23
 
+# 通讯与协作工具规则
 DOMAIN-KEYWORD,nextchat
 DOMAIN,nextchat.dev
 DOMAIN-KEYWORD,makenotion
 DOMAIN,makenotion.com
-DOMAIN-KEYWORD,agoda
-DOMAIN-SUFFIX,tmdb.org
-DOMAIN-SUFFIX,githubusercontent.com 
-#Github下载域名
 
-DOMAIN-KEYWORD,1password.com
+# 在线服务与工具规则
+DOMAIN-KEYWORD,agoda
+DOMAIN-KEYWORD,1password
+DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,githubusercontent.com  # Github 下载域名
