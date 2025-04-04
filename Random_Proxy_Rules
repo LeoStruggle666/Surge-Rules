@@ -13,3 +13,4 @@ DOMAIN-KEYWORD,1password
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,githubusercontent.com  # Github 下载域名
+DOMAIN-KEYWORD,github  # Github
