@@ -137,31 +137,30 @@ TW = select, "🇨🇳 台湾高级 IEPL 中继 1", "🇨🇳 台湾高级 IEPL 
 US = select, "🇺🇸 美国实验性 IEPL 中继 1", "🇺🇸 美国高级 IEPL 中继 1", "🇺🇸 美国高级 IEPL 中继 2", "🇺🇸 美国高级 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 1", "🇺🇸 美国标准 IEPL 中继 2", "🇺🇸 美国标准 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 4", "🇺🇸 美国标准 IEPL 中继 5", "🇺🇸 美国标准 IEPL 中继 6", "🇺🇸 美国标准 IEPL 中继 7", "🇺🇸 美国标准 IEPL 中继 8"
 
 [Rule]
+# ================================
+# 1. 应用程序代理规则
+# ================================
+
+# ChatGPT 应用
 PROCESS-NAME,/Applications/ChatGPT.app/Contents/MacOS/ChatGPT,AI
 
-# Google FCM
-RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/FCM,DIRECT,"update-interval=86400"
-
-# Steam
+# Steam 客户端
 PROCESS-NAME,"/Users/leolau/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/Frameworks/Steam Helper.app/Contents/MacOS/Steam Helper",HK
-
 PROCESS-NAME,"/Users/leolau/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/steam_osx",HK
 PROCESS-NAME,"/Users/leolau/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/streaming_client",HK
-# 随机掉落Direct规则
-RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Direct_Rules,RandomDirect,"update-interval=86400"
-# 随机掉落Proxy规则
-RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Proxy_Rules,RandomProxy,"update-interval=86400"
-# 随机掉落Reject规则
-RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Randon_Reject_Rules,RandomReject,"update-interval=86400"
 
-# Proxy
+# 代理工具
 PROCESS-NAME,v2ray,DIRECT
 PROCESS-NAME,ss-local,DIRECT
 
-# YouTube UDP REJECT
+# ================================
+# 2. 特定流量规则
+# ================================
+
+# 禁止 YouTube UDP 流量
 AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT-NO-DROP
 
-# Zhihu
+# 知乎流量拦截
 DOMAIN,appcloud.zhihu.com,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,crash2.zhihu.com,REJECT
@@ -172,56 +171,91 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\?,REJECT
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\?,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
 
-# 广告拦截 / 隐私保护 / Malware 拦截 / Phiishing 拦截
-# Non IP
-RULE-SET,https://ruleset.skk.moe/List/non_ip/reject-drop.conf,REJECT-DROP
-DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject.conf,REJECT-TINYGIF
-RULE-SET,https://ruleset.skk.moe/List/non_ip/reject.conf,REJECT
-# IP
-RULE-SET,https://ruleset.skk.moe/List/ip/reject.conf,REJECT-DROP
+# ================================
+# 3. 广告拦截 / 隐私保护 / 安全规则
+# ================================
 
-# 搜狗输入法，影响搜狗输入法账号同步、词库更新、问题反馈
-RULE-SET,https://ruleset.skk.moe/List/non_ip/sogouinput.conf,REJECT
+# 非 IP 广告拦截
+RULE-SET,https://ruleset.skk.moe/List/non_ip/reject-drop.conf,REJECT-DROP,"update-interval=86400"
+DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject.conf,REJECT-TINYGIF,"update-interval=86400"
+RULE-SET,https://ruleset.skk.moe/List/non_ip/reject.conf,REJECT,"update-interval=86400"
 
-# 常见静态 CDN
-# DOMAIN-SET,https://ruleset.skk.moe/List/domainset/cdn.conf,DIRECT,"update-interval=86400"
-# RULE-SET,https://ruleset.skk.moe/List/non_ip/cdn.conf,DIRECT,"update-interval=86400"
+# IP 广告拦截
+RULE-SET,https://ruleset.skk.moe/List/ip/reject.conf,REJECT-DROP,"update-interval=86400"
 
-# 流媒体
+# 搜狗输入法拦截（影响账号同步等功能）
+RULE-SET,https://ruleset.skk.moe/List/non_ip/sogouinput.conf,REJECT,"update-interval=86400"
+
+# ================================
+# 4. 流媒体相关规则
+# ================================
+
+# 视频流媒体
 RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list,YouTube,"update-interval=86400"
 RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list,Netflix,"update-interval=86400"
 RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list,Disney,"update-interval=86400"
 RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Bahamut.list,Bahamut,"update-interval=86400"
 RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list,Bilibili,"update-interval=86400"
+
+# 音乐流媒体
 RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list,Spotify,"update-interval=86400"
 
-# AI，包含 OpenAI、Google Gemini、Claude、Perplexity 等
+# ================================
+# 5. AI 服务相关规则
+# ================================
+
 RULE-SET,https://ruleset.skk.moe/List/non_ip/ai.conf,AI,"update-interval=86400"
+
+# ================================
+# 6. 通讯工具相关规则
+# ================================
 
 # Telegram
 RULE-SET,https://ruleset.skk.moe/List/ip/telegram.conf,Telegram,"update-interval=86400"
 
-# Apple CDN
-DOMAIN-SET,https://ruleset.skk.moe/List/domainset/apple_cdn.conf,DIRECT,"update-interval=86400"
+# ================================
+# 7. 系统服务与 CDN
+# ================================
 
-# Apple Service
+# Apple 服务
+DOMAIN-SET,https://ruleset.skk.moe/List/domainset/apple_cdn.conf,DIRECT,"update-interval=86400"
 RULE-SET,https://ruleset.skk.moe/List/non_ip/apple_services.conf,DIRECT,"update-interval=86400"
 
-# Microsoft CDN
-# RULE-SET,https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf,[Replace with your policy]
+# Microsoft 服务
 RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Microsoft/Microsoft.list,Microsoft,"update-interval=86400"
 
-# 软件更新、操作系统等大文件下载
+# 软件更新与大文件下载
 DOMAIN-SET,https://ruleset.skk.moe/List/domainset/download.conf,DIRECT,"update-interval=86400"
 RULE-SET,https://ruleset.skk.moe/List/non_ip/download.conf,DIRECT,"update-interval=86400"
 
-# Misc
+# ================================
+# 8. 随机掉落规则
+# ================================
+
+RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Direct_Rules,RandomDirect,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Proxy_Rules,RandomProxy,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Randon_Reject_Rules,RandomReject,"update-interval=86400"
+
+# ================================
+# 9. 杂项规则
+# ================================
+
 RULE-SET,https://ruleset.skk.moe/List/non_ip/domestic.conf,DIRECT,"update-interval=86400"
 RULE-SET,https://ruleset.skk.moe/List/non_ip/direct.conf,DIRECT,"update-interval=86400"
 RULE-SET,https://ruleset.skk.moe/List/non_ip/global.conf,MiscGlobal,"update-interval=86400"
 RULE-SET,https://ruleset.skk.moe/List/ip/domestic.conf,DIRECT,"update-interval=86400"
-
 RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/China.list,DIRECT,"update-interval=86400"
+
+# ================================
+# 10. 注释掉的规则（需手动启用）
+# ================================
+
+# Microsoft CDN（需替换策略）
+# RULE-SET,https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf,[Replace with your policy],"update-interval=86400"
+
+# 常见静态 CDN
+# DOMAIN-SET,https://ruleset.skk.moe/List/domainset/cdn.conf,DIRECT,"update-interval=86400"
+# RULE-SET,https://ruleset.skk.moe/List/non_ip/cdn.conf,DIRECT,"update-interval=86400"
 
 GEOIP,CN,DIRECT
 FINAL,Final
