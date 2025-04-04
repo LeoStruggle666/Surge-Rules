@@ -137,8 +137,17 @@ TW = select, "🇨🇳 台湾高级 IEPL 中继 1", "🇨🇳 台湾高级 IEPL 
 US = select, "🇺🇸 美国实验性 IEPL 中继 1", "🇺🇸 美国高级 IEPL 中继 1", "🇺🇸 美国高级 IEPL 中继 2", "🇺🇸 美国高级 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 1", "🇺🇸 美国标准 IEPL 中继 2", "🇺🇸 美国标准 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 4", "🇺🇸 美国标准 IEPL 中继 5", "🇺🇸 美国标准 IEPL 中继 6", "🇺🇸 美国标准 IEPL 中继 7", "🇺🇸 美国标准 IEPL 中继 8"
 
 [Rule]
+
 # ================================
-# 1. 应用程序代理规则
+#1. 随机掉落规则
+# ================================
+
+RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Direct_Rules,RandomDirect,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Proxy_Rules,RandomProxy,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Randon_Reject_Rules,RandomReject,"update-interval=86400"
+
+# ================================
+# 2. 应用程序代理规则
 # ================================
 
 # ChatGPT 应用
@@ -154,7 +163,7 @@ PROCESS-NAME,v2ray,DIRECT
 PROCESS-NAME,ss-local,DIRECT
 
 # ================================
-# 2. 特定流量规则
+# 3. 特定流量规则
 # ================================
 
 # 禁止 YouTube UDP 流量
@@ -172,7 +181,7 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\?,REJ
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
 
 # ================================
-# 3. 广告拦截 / 隐私保护 / 安全规则
+# 4. 广告拦截 / 隐私保护 / 安全规则
 # ================================
 
 # 非 IP 广告拦截
@@ -187,7 +196,7 @@ RULE-SET,https://ruleset.skk.moe/List/ip/reject.conf,REJECT-DROP,"update-interva
 RULE-SET,https://ruleset.skk.moe/List/non_ip/sogouinput.conf,REJECT,"update-interval=86400"
 
 # ================================
-# 4. 流媒体相关规则
+# 5. 流媒体相关规则
 # ================================
 
 # 视频流媒体
@@ -201,20 +210,20 @@ RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Rulese
 RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list,Spotify,"update-interval=86400"
 
 # ================================
-# 5. AI 服务相关规则
+# 6. AI 服务相关规则
 # ================================
 
 RULE-SET,https://ruleset.skk.moe/List/non_ip/ai.conf,AI,"update-interval=86400"
 
 # ================================
-# 6. 通讯工具相关规则
+# 7. 通讯工具相关规则
 # ================================
 
 # Telegram
 RULE-SET,https://ruleset.skk.moe/List/ip/telegram.conf,Telegram,"update-interval=86400"
 
 # ================================
-# 7. 系统服务与 CDN
+# 8. 系统服务与 CDN
 # ================================
 
 # Apple 服务
@@ -227,14 +236,6 @@ RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Rulese
 # 软件更新与大文件下载
 DOMAIN-SET,https://ruleset.skk.moe/List/domainset/download.conf,DIRECT,"update-interval=86400"
 RULE-SET,https://ruleset.skk.moe/List/non_ip/download.conf,DIRECT,"update-interval=86400"
-
-# ================================
-# 8. 随机掉落规则
-# ================================
-
-RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Direct_Rules,RandomDirect,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Proxy_Rules,RandomProxy,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Randon_Reject_Rules,RandomReject,"update-interval=86400"
 
 # ================================
 # 9. 杂项规则
