@@ -1,4 +1,4 @@
-# 更新时间：2025年4月5日19:38:39
+# 更新时间：2025年4月5日19:45:30
 
 [General]
 bypass-system = true
@@ -119,6 +119,10 @@ Expire: 2025-04-26 = ss, gzdata1.fc-sigma.xyz, 10001, encrypt-method=aes-128-gcm
 
 [Proxy Group]
 Proxies = select, HK, JP, SG, TW, US, "Traffic: 65.5 GB | 400 GB", "Expire: 2025-04-26", "🇭🇰 香港实验性 IEPL 中继 1", "🇯🇵 日本实验性 IEPL 中继 1", "🇸🇬 新加坡实验性 IEPL 中继 1", "🇺🇸 美国实验性 IEPL 中继 1", "🇭🇰 香港高级 IEPL 中继 1", "🇭🇰 香港高级 IEPL 中继 2", "🇭🇰 香港高级 IEPL 中继 3", "🇯🇵 日本高级 IEPL 中继 1", "🇯🇵 日本高级 IEPL 中继 2", "🇯🇵 日本高级 IEPL 中继 3", "🇸🇬 新加坡高级 IEPL 中继 1", "🇸🇬 新加坡高级 IEPL 中继 2", "🇸🇬 新加坡高级 IEPL 中继 3", "🇨🇳 台湾高级 IEPL 中继 1", "🇨🇳 台湾高级 IEPL 中继 2", "🇨🇳 台湾高级 IEPL 中继 3", "🇺🇸 美国高级 IEPL 中继 1", "🇺🇸 美国高级 IEPL 中继 2", "🇺🇸 美国高级 IEPL 中继 3", "🇭🇰 香港标准 IEPL 中继 1", "🇭🇰 香港标准 IEPL 中继 2", "🇭🇰 香港标准 IEPL 中继 3", "🇭🇰 香港标准 IEPL 中继 4", "🇭🇰 香港标准 IEPL 中继 5", "🇭🇰 香港标准 IEPL 中继 6", "🇭🇰 香港标准 IEPL 中继 7", "🇭🇰 香港标准 IEPL 中继 8", "🇯🇵 日本标准 IEPL 中继 1", "🇯🇵 日本标准 IEPL 中继 2", "🇯🇵 日本标准 IEPL 中继 3", "🇯🇵 日本标准 IEPL 中继 4", "🇯🇵 日本标准 IEPL 中继 5", "🇯🇵 日本标准 IEPL 中继 6", "🇯🇵 日本标准 IEPL 中继 7", "🇯🇵 日本标准 IEPL 中继 8", "🇸🇬 新加坡标准 IEPL 中继 1", "🇸🇬 新加坡标准 IEPL 中继 2", "🇸🇬 新加坡标准 IEPL 中继 3", "🇸🇬 新加坡标准 IEPL 中继 4", "🇸🇬 新加坡标准 IEPL 中继 5", "🇸🇬 新加坡标准 IEPL 中继 6", "🇸🇬 新加坡标准 IEPL 中继 7", "🇸🇬 新加坡标准 IEPL 中继 8", "🇨🇳 台湾标准 IEPL 中继 1", "🇨🇳 台湾标准 IEPL 中继 2", "🇨🇳 台湾标准 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 1", "🇺🇸 美国标准 IEPL 中继 2", "🇺🇸 美国标准 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 4", "🇺🇸 美国标准 IEPL 中继 5", "🇺🇸 美国标准 IEPL 中继 6", "🇺🇸 美国标准 IEPL 中继 7", "🇺🇸 美国标准 IEPL 中继 8", "🇲🇩 摩尔多瓦标准 IEPL 中继 1", "🇺🇦 乌克兰标准 IEPL 中继 1", "🇮🇹 意大利标准 IEPL 中继 1", "🇭🇺 匈牙利标准 IEPL 中继 1", "🇪🇸 西班牙标准 IEPL 中继 1", "🇹🇷 土耳其标准 IEPL 中继 1", "🇩🇪 德国标准 IEPL 中继 1", "🇩🇪 德国标准 IEPL 中继 2", "🇬🇧 英国标准 IEPL 中继 1", "🇬🇧 英国标准 IEPL 中继 2", "🇳🇱 荷兰标准 IEPL 中继 1", "🇳🇱 荷兰标准 IEPL 中继 2", "🇫🇷 法国标准 IEPL 中继 1", "🇫🇷 法国标准 IEPL 中继 2", "🇨🇦 加拿大标准 IEPL 中继 1", "🇨🇦 加拿大标准 IEPL 中继 2", "🇦🇷 阿根廷标准 IEPL 中继 1", "🇧🇷 巴西标准 IEPL 中继 1", "🇨🇱 智利标准 IEPL 中继 1", "🇦🇺 澳大利亚标准 IEPL 中继 1", "🇳🇿 新西兰标准 IEPL 中继 1", "🇰🇷 韩国标准 IEPL 中继 1", "🇰🇷 韩国标准 IEPL 中继 2", "🇮🇩 印尼标准 IEPL 中继 1", "🇹🇭 泰国标准 IEPL 中继 1", "🇻🇳 越南标准 IEPL 中继 1", "🇮🇳 印度标准 IEPL 中继 1", "🇵🇰 巴基斯坦标准 IEPL 中继 1", "🇮🇱 以色列标准 IEPL 中继 1", "🇦🇪 阿联酋标准 IEPL 中继 1", "🇵🇭 菲律宾标准 IEPL 中继 1", "🇲🇾 马来西亚标准 IEPL 中继 1", "🇪🇬 埃及标准 IEPL 中继 1"
+GoogleFCM = select, DIRECT, Proxies, HK, JP, SG, TW, US
+RandomDirect = select, DIRECT, Proxies, HK, JP, SG, TW, US
+RandomProxy = select, DIRECT, Proxies, HK, JP, SG, TW, US
+RandomReject = select, REJECT, REJECT-TINYGIF
 YouTube = select, Proxies, HK, JP, SG, TW, US
 Netflix = select, Proxies, HK, JP, SG, TW, US
 Disney = select, Proxies, HK, JP, SG, TW, US
@@ -146,6 +150,7 @@ US = select, "🇺🇸 美国实验性 IEPL 中继 1", "🇺🇸 美国高级 IE
 RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Direct_Rules,RandomDirect,"update-interval=86400"
 RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Proxy_Rules,RandomProxy,"update-interval=86400"
 RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Randon_Reject_Rules,RandomReject,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/FCM,GoogleFCM,"update-interval=86400"
 
 # ================================
 # 2. 特定服务规则
