@@ -114,20 +114,26 @@ test-timeout = 5
 🇪🇬 埃及标准 IEPL 中继 1 = ss, bjdata1.fc-sigma.xyz, 11086, encrypt-method=aes-128-gcm, password=Sj10bnYDe7w6V29E, tfo=true, obfs=http, obfs-host=5890711125.m.ctrip.com, udp-relay=true
 
 [Proxy Group]
+Proxies = select, HK, JP, SG, TW, US, "Traffic: 65.5 GB | 400 GB", "Expire: 2025-04-26", "🇭🇰 香港实验性 IEPL 中继 1", "🇯🇵 日本实验性 IEPL 中继 1", "🇸🇬 新加坡实验性 IEPL 中继 1", "🇺🇸 美国实验性 IEPL 中继 1", "🇭🇰 香港高级 IEPL 中继 1", "🇭🇰 香港高级 IEPL 中继 2", "🇭🇰 香港高级 IEPL 中继 3", "🇯🇵 日本高级 IEPL 中继 1", "🇯🇵 日本高级 IEPL 中继 2", "🇯🇵 日本高级 IEPL 中继 3", "🇸🇬 新加坡高级 IEPL 中继 1", "🇸🇬 新加坡高级 IEPL 中继 2", "🇸🇬 新加坡高级 IEPL 中继 3", "🇨🇳 台湾高级 IEPL 中继 1", "🇨🇳 台湾高级 IEPL 中继 2", "🇨🇳 台湾高级 IEPL 中继 3", "🇺🇸 美国高级 IEPL 中继 1", "🇺🇸 美国高级 IEPL 中继 2", "🇺🇸 美国高级 IEPL 中继 3", "🇭🇰 香港标准 IEPL 中继 1", "🇭🇰 香港标准 IEPL 中继 2", "🇭🇰 香港标准 IEPL 中继 3", "🇭🇰 香港标准 IEPL 中继 4", "🇭🇰 香港标准 IEPL 中继 5", "🇭🇰 香港标准 IEPL 中继 6", "🇭🇰 香港标准 IEPL 中继 7", "🇭🇰 香港标准 IEPL 中继 8", "🇯🇵 日本标准 IEPL 中继 1", "🇯🇵 日本标准 IEPL 中继 2", "🇯🇵 日本标准 IEPL 中继 3", "🇯🇵 日本标准 IEPL 中继 4", "🇯🇵 日本标准 IEPL 中继 5", "🇯🇵 日本标准 IEPL 中继 6", "🇯🇵 日本标准 IEPL 中继 7", "🇯🇵 日本标准 IEPL 中继 8", "🇸🇬 新加坡标准 IEPL 中继 1", "🇸🇬 新加坡标准 IEPL 中继 2", "🇸🇬 新加坡标准 IEPL 中继 3", "🇸🇬 新加坡标准 IEPL 中继 4", "🇸🇬 新加坡标准 IEPL 中继 5", "🇸🇬 新加坡标准 IEPL 中继 6", "🇸🇬 新加坡标准 IEPL 中继 7", "🇸🇬 新加坡标准 IEPL 中继 8", "🇨🇳 台湾标准 IEPL 中继 1", "🇨🇳 台湾标准 IEPL 中继 2", "🇨🇳 台湾标准 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 1", "🇺🇸 美国标准 IEPL 中继 2", "🇺🇸 美国标准 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 4", "🇺🇸 美国标准 IEPL 中继 5", "🇺🇸 美国标准 IEPL 中继 6", "🇺🇸 美国标准 IEPL 中继 7", "🇺🇸 美国标准 IEPL 中继 8", "🇲🇩 摩尔多瓦标准 IEPL 中继 1", "🇺🇦 乌克兰标准 IEPL 中继 1", "🇮🇹 意大利标准 IEPL 中继 1", "🇭🇺 匈牙利标准 IEPL 中继 1", "🇪🇸 西班牙标准 IEPL 中继 1", "🇹🇷 土耳其标准 IEPL 中继 1", "🇩🇪 德国标准 IEPL 中继 1", "🇩🇪 德国标准 IEPL 中继 2", "🇬🇧 英国标准 IEPL 中继 1", "🇬🇧 英国标准 IEPL 中继 2", "🇳🇱 荷兰标准 IEPL 中继 1", "🇳🇱 荷兰标准 IEPL 中继 2", "🇫🇷 法国标准 IEPL 中继 1", "🇫🇷 法国标准 IEPL 中继 2", "🇨🇦 加拿大标准 IEPL 中继 1", "🇨🇦 加拿大标准 IEPL 中继 2", "🇦🇷 阿根廷标准 IEPL 中继 1", "🇧🇷 巴西标准 IEPL 中继 1", "🇨🇱 智利标准 IEPL 中继 1", "🇦🇺 澳大利亚标准 IEPL 中继 1", "🇳🇿 新西兰标准 IEPL 中继 1", "🇰🇷 韩国标准 IEPL 中继 1", "🇰🇷 韩国标准 IEPL 中继 2", "🇮🇩 印尼标准 IEPL 中继 1", "🇹🇭 泰国标准 IEPL 中继 1", "🇻🇳 越南标准 IEPL 中继 1", "🇮🇳 印度标准 IEPL 中继 1", "🇵🇰 巴基斯坦标准 IEPL 中继 1", "🇮🇱 以色列标准 IEPL 中继 1", "🇦🇪 阿联酋标准 IEPL 中继 1", "🇵🇭 菲律宾标准 IEPL 中继 1", "🇲🇾 马来西亚标准 IEPL 中继 1", "🇪🇬 埃及标准 IEPL 中继 1"
 GoogleFCM = select, DIRECT, Proxies, HK, JP, SG, TW, US
 RandomDirect = select, DIRECT, Proxies, HK, JP, SG, TW, US
 RandomProxy = select, DIRECT, Proxies, HK, JP, SG, TW, US
-AI = select, Proxies, DIRECT, HK, JP, SG, TW, US
-YouTube = select, DIRECT, Proxies, HK, JP, SG, TW, US
-Netflix = select, DIRECT, Proxies, HK, JP, SG, TW, US
-Disney = select, DIRECT, Proxies, HK, JP, SG, TW, US
-Bahamut = select, DIRECT, Proxies, HK, TW
+RandomReject = select, REJECT, REJECT-TINYGIF
+YouTube = select, Proxies, HK, JP, SG, TW, US
+Netflix = select, Proxies, HK, JP, SG, TW, US
+Disney = select, Proxies, HK, JP, SG, TW, US
+Bahamut = select, Proxies, HK, TW
 Bilibili = select, DIRECT, HK, TW
 Spotify = select, Proxies, DIRECT, HK, JP, SG, TW, US
-Telegram = select, Proxies, DIRECT, HK, JP, SG, TW, US
+Steam = select, Proxies, DIRECT, HK, JP, SG, TW, US
+Telegram = select, Proxies, HK, JP, SG, TW, US
+Google = select, Proxies, HK, JP, SG, TW, US
 Microsoft = select, Proxies, DIRECT, HK, JP, SG, TW, US
+AI = select, Proxies, HK, JP, SG, TW, US
+PayPal = select, Proxies, DIRECT, HK, JP, SG, TW, US
+Apple = select, Proxies, DIRECT, HK, JP, SG, TW, US
 MiscGlobal = select, Proxies, DIRECT, HK, JP, SG, TW, US
-Final = select, Proxies, DIRECT, HK, JP, SG, TW, US
+Final = select, Proxies, DIRECT
 Proxies = select, HK, JP, SG, TW, US, 🇭🇰 香港实验性 IEPL 中继 1, 🇯🇵 日本实验性 IEPL 中继 1, 🇸🇬 新加坡实验性 IEPL 中继 1, 🇺🇸 美国实验性 IEPL 中继 1, 🇭🇰 香港高级 IEPL 中继 1, 🇭🇰 香港高级 IEPL 中继 2, 🇭🇰 香港高级 IEPL 中继 3, 🇯🇵 日本高级 IEPL 中继 1, 🇯🇵 日本高级 IEPL 中继 2, 🇯🇵 日本高级 IEPL 中继 3, 🇸🇬 新加坡高级 IEPL 中继 1, 🇸🇬 新加坡高级 IEPL 中继 2, 🇸🇬 新加坡高级 IEPL 中继 3, 🇨🇳 台湾高级 IEPL 中继 1, 🇨🇳 台湾高级 IEPL 中继 2, 🇨🇳 台湾高级 IEPL 中继 3, 🇺🇸 美国高级 IEPL 中继 1, 🇺🇸 美国高级 IEPL 中继 2, 🇺🇸 美国高级 IEPL 中继 3, 🇭🇰 香港标准 IEPL 中继 1, 🇭🇰 香港标准 IEPL 中继 2, 🇭🇰 香港标准 IEPL 中继 3, 🇭🇰 香港标准 IEPL 中继 4, 🇭🇰 香港标准 IEPL 中继 5, 🇭🇰 香港标准 IEPL 中继 6, 🇭🇰 香港标准 IEPL 中继 7, 🇭🇰 香港标准 IEPL 中继 8, 🇯🇵 日本标准 IEPL 中继 1, 🇯🇵 日本标准 IEPL 中继 2, 🇯🇵 日本标准 IEPL 中继 3, 🇯🇵 日本标准 IEPL 中继 4, 🇯🇵 日本标准 IEPL 中继 5, 🇯🇵 日本标准 IEPL 中继 6, 🇯🇵 日本标准 IEPL 中继 7, 🇯🇵 日本标准 IEPL 中继 8, 🇸🇬 新加坡标准 IEPL 中继 1, 🇸🇬 新加坡标准 IEPL 中继 2, 🇸🇬 新加坡标准 IEPL 中继 3, 🇸🇬 新加坡标准 IEPL 中继 4, 🇸🇬 新加坡标准 IEPL 中继 5, 🇸🇬 新加坡标准 IEPL 中继 6, 🇸🇬 新加坡标准 IEPL 中继 7, 🇸🇬 新加坡标准 IEPL 中继 8, 🇨🇳 台湾标准 IEPL 中继 1, 🇨🇳 台湾标准 IEPL 中继 2, 🇨🇳 台湾标准 IEPL 中继 3, 🇺🇸 美国标准 IEPL 中继 1, 🇺🇸 美国标准 IEPL 中继 2, 🇺🇸 美国标准 IEPL 中继 3, 🇺🇸 美国标准 IEPL 中继 4, 🇺🇸 美国标准 IEPL 中继 5, 🇺🇸 美国标准 IEPL 中继 6, 🇺🇸 美国标准 IEPL 中继 7, 🇺🇸 美国标准 IEPL 中继 8, 🇲🇩 摩尔多瓦标准 IEPL 中继 1, 🇺🇦 乌克兰标准 IEPL 中继 1, 🇮🇹 意大利标准 IEPL 中继 1, 🇭🇺 匈牙利标准 IEPL 中继 1, 🇪🇸 西班牙标准 IEPL 中继 1, 🇹🇷 土耳其标准 IEPL 中继 1, 🇩🇪 德国标准 IEPL 中继 1, 🇩🇪 德国标准 IEPL 中继 2, 🇬🇧 英国标准 IEPL 中继 1, 🇬🇧 英国标准 IEPL 中继 2, 🇳🇱 荷兰标准 IEPL 中继 1, 🇳🇱 荷兰标准 IEPL 中继 2, 🇫🇷 法国标准 IEPL 中继 1, 🇫🇷 法国标准 IEPL 中继 2, 🇨🇦 加拿大标准 IEPL 中继 1, 🇨🇦 加拿大标准 IEPL 中继 2, 🇦🇷 阿根廷标准 IEPL 中继 1, 🇧🇷 巴西标准 IEPL 中继 1, 🇨🇱 智利标准 IEPL 中继 1, 🇦🇺 澳大利亚标准 IEPL 中继 1, 🇳🇿 新西兰标准 IEPL 中继 1, 🇰🇷 韩国标准 IEPL 中继 1, 🇰🇷 韩国标准 IEPL 中继 2, 🇮🇩 印尼标准 IEPL 中继 1, 🇹🇭 泰国标准 IEPL 中继 1, 🇻🇳 越南标准 IEPL 中继 1, 🇮🇳 印度标准 IEPL 中继 1, 🇵🇰 巴基斯坦标准 IEPL 中继 1, 🇮🇱 以色列标准 IEPL 中继 1, 🇦🇪 阿联酋标准 IEPL 中继 1, 🇵🇭 菲律宾标准 IEPL 中继 1, 🇲🇾 马来西亚标准 IEPL 中继 1, 🇪🇬 埃及标准 IEPL 中继 1
 HK = select, 🇭🇰 香港实验性 IEPL 中继 1, 🇭🇰 香港高级 IEPL 中继 1, 🇭🇰 香港高级 IEPL 中继 2, 🇭🇰 香港高级 IEPL 中继 3, 🇭🇰 香港标准 IEPL 中继 1, 🇭🇰 香港标准 IEPL 中继 2, 🇭🇰 香港标准 IEPL 中继 3, 🇭🇰 香港标准 IEPL 中继 4, 🇭🇰 香港标准 IEPL 中继 5, 🇭🇰 香港标准 IEPL 中继 6, 🇭🇰 香港标准 IEPL 中继 7, 🇭🇰 香港标准 IEPL 中继 8
 JP = select, 🇯🇵 日本实验性 IEPL 中继 1, 🇯🇵 日本高级 IEPL 中继 1, 🇯🇵 日本高级 IEPL 中继 2, 🇯🇵 日本高级 IEPL 中继 3, 🇯🇵 日本标准 IEPL 中继 1, 🇯🇵 日本标准 IEPL 中继 2, 🇯🇵 日本标准 IEPL 中继 3, 🇯🇵 日本标准 IEPL 中继 4, 🇯🇵 日本标准 IEPL 中继 5, 🇯🇵 日本标准 IEPL 中继 6, 🇯🇵 日本标准 IEPL 中继 7, 🇯🇵 日本标准 IEPL 中继 8
@@ -136,32 +142,66 @@ TW = select, 🇨🇳 台湾高级 IEPL 中继 1, 🇨🇳 台湾高级 IEPL 中
 US = select, 🇺🇸 美国实验性 IEPL 中继 1, 🇺🇸 美国高级 IEPL 中继 1, 🇺🇸 美国高级 IEPL 中继 2, 🇺🇸 美国高级 IEPL 中继 3, 🇺🇸 美国标准 IEPL 中继 1, 🇺🇸 美国标准 IEPL 中继 2, 🇺🇸 美国标准 IEPL 中继 3, 🇺🇸 美国标准 IEPL 中继 4, 🇺🇸 美国标准 IEPL 中继 5, 🇺🇸 美国标准 IEPL 中继 6, 🇺🇸 美国标准 IEPL 中继 7, 🇺🇸 美国标准 IEPL 中继 8
 
 [Rule]
-PROCESS-NAME,/Applications/ChatGPT.app/Contents/MacOS/ChatGPT,AI
-# Google FCM
+# ================================
+# 1. 随机掉落规则
+# ================================
+RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Direct_Rules,RandomDirect,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Proxy_Rules,RandomProxy,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Randon_Reject_Rules,RandomReject,"update-interval=86400"
 RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/FCM,GoogleFCM,"update-interval=86400"
 
-PROCESS-NAME,"/Applications/Lark.app/Contents/Frameworks/Lark Framework.framework/Versions/109.0.5414.128/Helpers/Lark Helper (Iron).app/Contents/MacOS/Lark Helper (Iron)",DIRECT
-PROCESS-NAME,"/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/125.0.6422.142/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper",DIRECT
+# ================================
+# 2. 特定服务规则
+# ================================
+## 2.1 软件及系统更新大文件下载
+DOMAIN-SET,https://ruleset.skk.moe/List/domainset/download.conf,DIRECT,"update-interval=86400"
+RULE-SET,https://ruleset.skk.moe/List/non_ip/download.conf,DIRECT,"update-interval=86400"
 
-# Steam
-PROCESS-NAME,"/Users/leolau/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/Frameworks/Steam Helper.app/Contents/MacOS/Steam Helper",HK
-PROCESS-NAME,"/Users/leolau/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/steam_osx",HK
-PROCESS-NAME,"/Users/leolau/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/streaming_client",HK
+## 2.2 Apple 相关服务
+RULE-SET,https://ruleset.skk.moe/List/non_ip/apple_services.conf,Apple,"update-interval=86400"
+DOMAIN-SET,https://ruleset.skk.moe/List/domainset/apple_cdn.conf,Apple,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list,Apple,"update-interval=86400"
 
-# 随机掉落Direct规则
-RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Direct_Rules,RandomDirect,"update-interval=86400"
+# ================================
+# 3. 媒体与流媒体规则
+# ================================
+## 3.1 视频流服务
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list,YouTube,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list,Netflix,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list,Disney,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Bahamut.list,Bahamut,"update-interval=86400"
 
-# 随机掉落Proxy规则
-RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Proxy_Rules,RandomProxy,"update-interval=86400"
+## 3.2 其他流媒体服务
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list,Bilibili,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list,Spotify,"update-interval=86400"
 
-# Proxy
-PROCESS-NAME,v2ray,DIRECT
-PROCESS-NAME,ss-local,DIRECT
+# ================================
+# 4. 游戏及社交服务规则
+# ================================
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Game/Steam.list,Steam,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list,Telegram,"update-interval=86400"
+ 
+# ================================
+# 5. 搜索、AI 及支付规则
+# ================================
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Google/Google.list,Google,"update-interval=86400"
+RULE-SET,https://ruleset.skk.moe/List/non_ip/ai.conf,AI,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/OpenAI/OpenAI.list,AI,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/PayPal.list,PayPal,"update-interval=86400"
 
-# YouTube UDP REJECT
-AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT-NO-DROP
+# ================================
+# 6. 国内外流量分流规则
+# ================================
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Global.list,Proxies,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/China.list,DIRECT,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/LocalAreaNetwork.list,DIRECT,"update-interval=86400"
+RULE-SET,https://ruleset.skk.moe/List/ip/domestic.conf,DIRECT,"update-interval=86400"
+RULE-SET,https://ruleset.skk.moe/List/non_ip/domestic.conf,DIRECT,"update-interval=86400"
 
-# Zhihu
+# ================================
+# 7. 拒绝规则（例：知乎、YouTube UDP）
+# ================================
+## 7.1 Zhihu 特定域名及接口拒绝
 DOMAIN,appcloud.zhihu.com,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,crash2.zhihu.com,REJECT
@@ -172,56 +212,14 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\?,REJECT
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\?,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
 
-# 广告拦截 / 隐私保护 / Malware 拦截 / Phiishing 拦截
-# Non IP
-# RULE-SET,https://ruleset.skk.moe/List/non_ip/reject-drop.conf,REJECT-DROP
-# DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject.conf,REJECT-TINYGIF
-# RULE-SET,https://ruleset.skk.moe/List/non_ip/reject.conf,REJECT
-# IP
-# RULE-SET,https://ruleset.skk.moe/List/ip/reject.conf,REJECT-DROP
+## 7.2 YouTube UDP REJECT
+AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT-NO-DROP
 
-# 搜狗输入法，影响搜狗输入法账号同步、词库更新、问题反馈
-RULE-SET,https://ruleset.skk.moe/List/non_ip/sogouinput.conf,REJECT
-
-# 常见静态 CDN
-# DOMAIN-SET,https://ruleset.skk.moe/List/domainset/cdn.conf,DIRECT,update-interval=86400
-# RULE-SET,https://ruleset.skk.moe/List/non_ip/cdn.conf,DIRECT,update-interval=86400
-
-# 流媒体
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list,YouTube,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list,Netflix,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list,Disney,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Bahamut.list,Bahamut,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list,Bilibili,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list,Spotify,update-interval=86400
-
-# AI，包含 OpenAI、Google Gemini、Claude、Perplexity 等
-RULE-SET,https://ruleset.skk.moe/List/non_ip/ai.conf,AI,update-interval=86400
-
-# Telegram
-RULE-SET,https://ruleset.skk.moe/List/ip/telegram.conf,Telegram,update-interval=86400
-
-# Apple CDN
-DOMAIN-SET,https://ruleset.skk.moe/List/domainset/apple_cdn.conf,DIRECT,update-interval=86400
-
-# Apple Service
-RULE-SET,https://ruleset.skk.moe/List/non_ip/apple_services.conf,DIRECT,update-interval=86400
-
-# Microsoft CDN
-# RULE-SET,https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf,[Replace with your policy]
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Microsoft/Microsoft.list,Microsoft,update-interval=86400
-
-# 软件更新、操作系统等大文件下载
-DOMAIN-SET,https://ruleset.skk.moe/List/domainset/download.conf,DIRECT,update-interval=86400
-RULE-SET,https://ruleset.skk.moe/List/non_ip/download.conf,DIRECT,update-interval=86400
-
-# Misc
-RULE-SET,https://ruleset.skk.moe/List/non_ip/domestic.conf,DIRECT,update-interval=86400
-RULE-SET,https://ruleset.skk.moe/List/non_ip/direct.conf,DIRECT,update-interval=86400
-RULE-SET,https://ruleset.skk.moe/List/non_ip/global.conf,MiscGlobal,update-interval=86400
-RULE-SET,https://ruleset.skk.moe/List/ip/domestic.conf,DIRECT,update-interval=86400
-
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/China.list,DIRECT,update-interval=86400
+# ================================
+# 8. 杂项规则
+# ================================
+RULE-SET,https://ruleset.skk.moe/List/non_ip/global.conf,MiscGlobal,"update-interval=86400"
+RULE-SET,https://ruleset.skk.moe/List/non_ip/direct.conf,DIRECT,"update-interval=86400"
 
 GEOIP,CN,DIRECT
 FINAL,Final
