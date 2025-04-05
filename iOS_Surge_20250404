@@ -1,4 +1,4 @@
-# 更新时间：2025年3月27日03:25:02
+# 更新时间：2025年4月5日19:38:39
 
 [General]
 bypass-system = true
@@ -140,26 +140,65 @@ TW = select, "🇨🇳 台湾高级 IEPL 中继 1", "🇨🇳 台湾高级 IEPL 
 US = select, "🇺🇸 美国实验性 IEPL 中继 1", "🇺🇸 美国高级 IEPL 中继 1", "🇺🇸 美国高级 IEPL 中继 2", "🇺🇸 美国高级 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 1", "🇺🇸 美国标准 IEPL 中继 2", "🇺🇸 美国标准 IEPL 中继 3", "🇺🇸 美国标准 IEPL 中继 4", "🇺🇸 美国标准 IEPL 中继 5", "🇺🇸 美国标准 IEPL 中继 6", "🇺🇸 美国标准 IEPL 中继 7", "🇺🇸 美国标准 IEPL 中继 8"
 
 [Rule]
-# 软件更新、操作系统等大文件下载
+# ================================
+# 1. 随机掉落规则
+# ================================
+RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Direct_Rules,RandomDirect,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Random_Proxy_Rules,RandomProxy,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/LeoStruggle666/Surge-Rules/refs/heads/main/Randon_Reject_Rules,RandomReject,"update-interval=86400"
+
+# ================================
+# 2. 特定服务规则
+# ================================
+## 2.1 软件及系统更新大文件下载
 DOMAIN-SET,https://ruleset.skk.moe/List/domainset/download.conf,DIRECT,"update-interval=86400"
 RULE-SET,https://ruleset.skk.moe/List/non_ip/download.conf,DIRECT,"update-interval=86400"
 
-# Apple Service
+## 2.2 Apple 相关服务
 RULE-SET,https://ruleset.skk.moe/List/non_ip/apple_services.conf,Apple,"update-interval=86400"
-
-# Apple CDN
 DOMAIN-SET,https://ruleset.skk.moe/List/domainset/apple_cdn.conf,Apple,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list,Apple,"update-interval=86400"
 
-DOMAIN-KEYWORD,agoda,Proxies,extended-matching
-RULE-SET,https://raw.githubusercontent.com/blankmagic/surge/refs/heads/main/rule/AI.list,SG
-# Proxy
-PROCESS-NAME,v2ray,DIRECT
-PROCESS-NAME,ss-local,DIRECT
+# ================================
+# 3. 媒体与流媒体规则
+# ================================
+## 3.1 视频流服务
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list,YouTube,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list,Netflix,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list,Disney,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Bahamut.list,Bahamut,"update-interval=86400"
 
-# YouTube UDP REJECT
-AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT-NO-DROP
+## 3.2 其他流媒体服务
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list,Bilibili,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list,Spotify,"update-interval=86400"
 
-# Zhihu
+# ================================
+# 4. 游戏及社交服务规则
+# ================================
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Game/Steam.list,Steam,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list,Telegram,"update-interval=86400"
+
+# ================================
+# 5. 搜索、AI 及支付规则
+# ================================
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Google/Google.list,Google,"update-interval=86400"
+RULE-SET,https://ruleset.skk.moe/List/non_ip/ai.conf,AI,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/OpenAI/OpenAI.list,AI,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/PayPal.list,PayPal,"update-interval=86400"
+
+# ================================
+# 6. 国内外流量分流规则
+# ================================
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Global.list,Proxies,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/China.list,DIRECT,"update-interval=86400"
+RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/LocalAreaNetwork.list,DIRECT,"update-interval=86400"
+RULE-SET,https://ruleset.skk.moe/List/ip/domestic.conf,DIRECT,"update-interval=86400"
+RULE-SET,https://ruleset.skk.moe/List/non_ip/domestic.conf,DIRECT,"update-interval=86400"
+
+# ================================
+# 7. 拒绝规则（例：知乎、YouTube UDP）
+# ================================
+## 7.1 Zhihu 特定域名及接口拒绝
 DOMAIN,appcloud.zhihu.com,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,crash2.zhihu.com,REJECT
@@ -170,25 +209,15 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\?,REJECT
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\?,REJECT
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
 
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Unbreak.list,DIRECT,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list,YouTube,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list,Netflix,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list,Disney,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Bahamut.list,Bahamut,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list,Bilibili,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list,Spotify,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Game/Steam.list,Steam,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list,Telegram,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Google/Google.list,Google,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Microsoft/Microsoft.list,Microsoft,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/OpenAI/OpenAI.list,AI,"update-interval=86400"
-# AI，包含 OpenAI、Google Gemini、Claude、Perplexity 等
-RULE-SET,https://ruleset.skk.moe/List/non_ip/ai.conf,AI,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/PayPal.list,PayPal,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list,Apple,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Global.list,Proxies,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/China.list,DIRECT,"update-interval=86400"
-RULE-SET,https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/LocalAreaNetwork.list,DIRECT,"update-interval=86400"
+## 7.2 YouTube UDP REJECT
+AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT-NO-DROP
+
+# ================================
+# 8. 杂项规则
+# ================================
+RULE-SET,https://ruleset.skk.moe/List/non_ip/global.conf,MiscGlobal,"update-interval=86400"
+RULE-SET,https://ruleset.skk.moe/List/non_ip/direct.conf,DIRECT,"update-interval=86400"
+
 GEOIP,CN,DIRECT
 FINAL,Final
 
