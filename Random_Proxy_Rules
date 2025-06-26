@@ -1,5 +1,5 @@
 # 随机掉落的Proxy规则
-# 更新时间：2025年6月17日11:10:38
+# 更新时间：2025年6月26日11:16:46
 
 # 通讯与协作工具规则
 DOMAIN-KEYWORD,nextchat
@@ -12,6 +12,7 @@ DOMAIN-KEYWORD,aaflamingo
 DOMAIN-KEYWORD,atomecorp
 DOMAIN-KEYWORD,adancergroup
 DOMAIN-KEYWORD,advai
+DOMAIN-KEYWORD,amplitude
 
 # 在线服务与工具规则
 DOMAIN-KEYWORD,agoda
@@ -20,3 +21,4 @@ DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,githubusercontent.com  # Github 下载域名
 DOMAIN-KEYWORD,github  # Github
+
