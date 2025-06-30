@@ -8,6 +8,12 @@ DOMAIN-KEYWORD,archery
 # 协作与办公工具规则
 DOMAIN,meican.com
 DOMAIN-KEYWORD,meican
+DOMAIN-KEYWORD,larksuite
+DOMAIN-KEYWORD,lark
+DOMAIN-KEYWORD,aaflamingo
+DOMAIN-KEYWORD,atomecorp
+DOMAIN-KEYWORD,adancergroup
+DOMAIN-KEYWORD,advai
 
 # 媒体与文件存储规则
 DOMAIN-SUFFIX,emby999.com
