@@ -1,17 +1,12 @@
 # 随机掉落的Proxy规则
-# 更新时间：2025年6月26日11:16:46
+# 更新时间：2025年6月30日15:46:14
 
 # 通讯与协作工具规则
 DOMAIN-KEYWORD,nextchat
 DOMAIN,nextchat.dev
 DOMAIN-KEYWORD,makenotion
 DOMAIN,makenotion.com
-DOMAIN-KEYWORD,larksuite
-DOMAIN-KEYWORD,lark
-DOMAIN-KEYWORD,aaflamingo
-DOMAIN-KEYWORD,atomecorp
-DOMAIN-KEYWORD,adancergroup
-DOMAIN-KEYWORD,advai
+
 DOMAIN-KEYWORD,amplitude
 
 # 在线服务与工具规则
