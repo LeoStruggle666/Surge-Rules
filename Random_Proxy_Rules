@@ -1,5 +1,5 @@
 # 随机掉落的Proxy规则
-# 更新时间：2025年7月6日23:43:54
+# 更新时间：2025年7月7日17:13:15
 
 # 通讯与协作工具规则
 DOMAIN-KEYWORD,nextchat
@@ -18,3 +18,5 @@ DOMAIN-SUFFIX,githubusercontent.com  # Github 下载域名
 DOMAIN-KEYWORD,github  # Github
 DOMAIN-KEYWORD,agilebits  # 1Password
 DOMAIN-SUFFIX,agilebits.com  # 1Password
+DOMAIN-KEYWORD,dropbox  # Dropbox
+
