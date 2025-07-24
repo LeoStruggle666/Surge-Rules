@@ -1,5 +1,5 @@
 # 需要直连的规则
-# 更新时间：2025年6月30日15:46:40
+# 更新时间：2025年7月24日17:07:53
 
 # 数据科学与开发工具规则
 DOMAIN-KEYWORD,jupyterhub
@@ -23,6 +23,18 @@ DOMAIN-SUFFIX,xmax.vip
 
 # 通讯与谷歌相关服务规则
 DOMAIN,geosite:googlefcm
+IP-CIDR,192.168.31.35/32,DIRECT,no-resolve
+IP-CIDR,192.168.31.1/32,DIRECT,no-resolve
 
 # 应用程序规则
 PROCESS-NAME,/Applications/BambuStudio.app/Contents/MacOS/BambuStudio
+PROCESS-NAME,/Applications/WeChat.app/Contents/MacOS/WeChat,DIRECT
+
+
+# 测试Lark规则
+DOMAIN-SUFFIX,byteoversea.com
+PROCESS-NAME,/Applications/Lark.app/Contents/MacOS/Feishu,DIRECT
+PROCESS-NAME,"/Applications/Lark.app/Contents/Frameworks/Lark Framework.framework/Versions/121.0.6167.86/Helpers/Lark Helper (Iron).app/Contents/MacOS/Lark Helper (Iron)",DIRECT
+PROCESS-NAME,"/Applications/Lark.app/Contents/Frameworks/Lark Framework.framework/Versions/121.0.6167.86/Helpers/Lark Helper.app/Contents/MacOS/Lark Helper",DIRECT
+IP-CIDR,10.238.12.117/32,DIRECT,no-resolve
+PROCESS-NAME,"/Applications/Lark.app/Contents/Frameworks/Lark Framework.framework/Versions/121.0.6167.86/Libraries/video_conference_sdk",DIRECT
