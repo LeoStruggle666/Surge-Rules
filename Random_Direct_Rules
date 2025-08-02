@@ -1,5 +1,5 @@
 # 需要直连的规则
-# 更新时间：2025年7月24日17:07:53
+# 更新时间：2025年8月2日14:00:39
 
 # 数据科学与开发工具规则
 DOMAIN-KEYWORD,jupyterhub
@@ -29,6 +29,9 @@ IP-CIDR,192.168.31.1/32,DIRECT,no-resolve
 # 应用程序规则
 PROCESS-NAME,/Applications/BambuStudio.app/Contents/MacOS/BambuStudio
 PROCESS-NAME,/Applications/WeChat.app/Contents/MacOS/WeChat,DIRECT
+
+### 测速
+DOMAIN-SUFFIX,test.ustc.edu.cn
 
 
 # 测试Lark规则
