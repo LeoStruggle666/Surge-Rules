@@ -33,6 +33,9 @@ PROCESS-NAME,/Applications/WeChat.app/Contents/MacOS/WeChat,DIRECT
 ### 测速
 DOMAIN-SUFFIX,test.ustc.edu.cn
 
+### AiHubMIx
+DOMAIN-SUFFIX,aihubmix.com
+
 
 # 测试Lark规则
 DOMAIN-SUFFIX,byteoversea.com
