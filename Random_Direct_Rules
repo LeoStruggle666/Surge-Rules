@@ -1,5 +1,5 @@
 # 需要直连的规则
-# 更新时间：2025年8月4日16:19:17
+# 更新时间：2025年8月6日17:38:32
 
 # 数据科学与开发工具规则
 DOMAIN-KEYWORD,jupyterhub
@@ -20,6 +20,8 @@ DOMAIN-SUFFIX,emby999.com
 DOMAIN-SUFFIX,jianguoyun.com
 DOMAIN-SUFFIX,reflix.top
 DOMAIN-SUFFIX,xmax.vip
+DOMAIN-SUFFIX,11yun.live
+
 
 # 通讯与谷歌相关服务规则
 DOMAIN,geosite:googlefcm
@@ -36,6 +38,8 @@ DOMAIN-SUFFIX,test.ustc.edu.cn
 ### AiHubMIx
 DOMAIN-SUFFIX,aihubmix.com
 
+### 沉浸式翻译
+DOMAIN-SUFFIX,immersivetranslate.com
 
 # 测试Lark规则
 DOMAIN-SUFFIX,byteoversea.com
