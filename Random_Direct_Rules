@@ -39,6 +39,10 @@ DOMAIN-SUFFIX,test.ustc.edu.cn
 ### AiHubMIx
 DOMAIN-SUFFIX,aihubmix.com
 
+### nexitally
+DOMAIN-SUFFIX,nexitally.com
+DOMAIN-KEYWORD,nexitally
+
 ### 沉浸式翻译
 DOMAIN-SUFFIX,immersivetranslate.com
 
