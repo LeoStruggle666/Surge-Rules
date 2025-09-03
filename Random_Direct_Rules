@@ -1,5 +1,5 @@
 # 需要直连的规则
-# 更新时间：2025年8月20日14:43:12
+# 更新时间：2025年9月3日22:27:08
 
 # 数据科学与开发工具规则
 DOMAIN-KEYWORD,jupyterhub
@@ -46,6 +46,7 @@ DOMAIN-SUFFIX,immersivetranslate.com
 
 # 测试Lark规则
 DOMAIN-SUFFIX,byteoversea.com
+PROCESS-NAME,/Applications/Lark.app/,DIRECT
 PROCESS-NAME,/Applications/Lark.app/Contents/MacOS/Feishu,DIRECT
 PROCESS-NAME,"/Applications/Lark.app/Contents/Frameworks/Lark Framework.framework/Versions/121.0.6167.86/Helpers/Lark Helper (Iron).app/Contents/MacOS/Lark Helper (Iron)",DIRECT
 PROCESS-NAME,"/Applications/Lark.app/Contents/Frameworks/Lark Framework.framework/Versions/121.0.6167.86/Helpers/Lark Helper.app/Contents/MacOS/Lark Helper",DIRECT
