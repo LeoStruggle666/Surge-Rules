@@ -1,5 +1,5 @@
 # 需要直连的规则
-# 更新时间：2025年9月3日22:27:08
+# 更新时间：2025年10月10日22:16:08
 
 # 数据科学与开发工具规则
 DOMAIN-KEYWORD,jupyterhub
@@ -22,7 +22,7 @@ DOMAIN-SUFFIX,reflix.top
 DOMAIN-SUFFIX,xmax.vip
 DOMAIN-SUFFIX,11yun.live
 DOMAIN-KEYWORD,11yun
-
+DOMAIN-KEYWORD,sinaimg
 
 # 通讯与谷歌相关服务规则
 DOMAIN,geosite:googlefcm
