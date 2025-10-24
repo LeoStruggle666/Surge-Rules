@@ -1,5 +1,5 @@
 # 随机掉落的Proxy规则
-# 更新时间：2025年9月7日17:16:44
+# 更新时间：2025年10月24日22:43:03
 
 # 通讯与协作工具规则
 DOMAIN-KEYWORD,nextchat
@@ -27,3 +27,5 @@ DOMAIN-SUFFIX,nexitally.com
 DOMAIN-KEYWORD,nexitally
 
 DOMAIN-KEYWORD,oura
+
+DOMAIN-KEYWORD,nssurge
