@@ -1,5 +1,5 @@
 # 随机掉落的Proxy规则
-# 更新时间：2025年11月4日22:51:12
+# 更新时间：2025年11月4日23:56:45
 
 # 通讯与协作工具规则
 DOMAIN-KEYWORD,nextchat
@@ -32,3 +32,6 @@ DOMAIN-KEYWORD,nssurge
 
 DOMAIN-SUFFIX,brew.sh
 DOMAIN-KEYWORD,brew.sh
+
+DOMAIN-SUFFIX,docker.io
+DOMAIN-KEYWORD,docker.io
