@@ -1,11 +1,11 @@
-# 需要直连的规则
-# 更新时间：2025年10月10日22:16:08
+# Surge Direct Rules整理版本
+# 更新时间：2025-12-06 16:56:50
 
-# 数据科学与开发工具规则
+## 🧠 数据科学与开发工具
 DOMAIN-KEYWORD,jupyterhub
 DOMAIN-KEYWORD,archery
 
-# 协作与办公工具规则
+## 🏢 协作与办公工具
 DOMAIN,meican.com
 DOMAIN-KEYWORD,meican
 DOMAIN-KEYWORD,larksuite
@@ -15,7 +15,16 @@ DOMAIN-KEYWORD,atomecorp
 DOMAIN-KEYWORD,adancergroup
 DOMAIN-KEYWORD,advai
 
-# 媒体与文件存储规则
+### Lark 直连增强
+DOMAIN-SUFFIX,byteoversea.com
+PROCESS-NAME,/Applications/Lark.app/,DIRECT
+PROCESS-NAME,/Applications/Lark.app/Contents/MacOS/Feishu,DIRECT
+PROCESS-NAME,"/Applications/Lark.app/Contents/Frameworks/Lark Framework.framework/Versions/121.0.6167.86/Helpers/Lark Helper (Iron).app/Contents/MacOS/Lark Helper (Iron)",DIRECT
+PROCESS-NAME,"/Applications/Lark.app/Contents/Frameworks/Lark Framework.framework/Versions/121.0.6167.86/Helpers/Lark Helper.app/Contents/MacOS/Lark Helper",DIRECT
+PROCESS-NAME,"/Applications/Lark.app/Contents/Frameworks/Lark Framework.framework/Versions/121.0.6167.86/Libraries/video_conference_sdk",DIRECT
+IP-CIDR,10.238.12.117/32,DIRECT,no-resolve
+
+## 📦 媒体与文件存储
 DOMAIN-SUFFIX,emby999.com
 DOMAIN-SUFFIX,jianguoyun.com
 DOMAIN-SUFFIX,reflix.top
@@ -24,31 +33,29 @@ DOMAIN-SUFFIX,11yun.live
 DOMAIN-KEYWORD,11yun
 DOMAIN-KEYWORD,sinaimg
 
-# 通讯与谷歌相关服务规则
+## 📡 通讯与 Google 服务
 DOMAIN,geosite:googlefcm
+
+## 🏠 本地局域网直连
 IP-CIDR,192.168.31.35/32,DIRECT,no-resolve
 IP-CIDR,192.168.31.1/32,DIRECT,no-resolve
 
-# 应用程序规则
+## 📱 指定应用直连
+DOMAIN-KEYWORD,BambuStudio
 PROCESS-NAME,/Applications/BambuStudio.app/Contents/MacOS/BambuStudio
 PROCESS-NAME,/Applications/WeChat.app/Contents/MacOS/WeChat,DIRECT
 
-### 测速
+## 🧪 测速
 DOMAIN-SUFFIX,test.ustc.edu.cn
 
-### AiHubMIx
+## 🌐 AI 与工具网站
 DOMAIN-SUFFIX,aihubmix.com
-
-DOMAIN-SUFFIX,mini4k.com
-
-### 沉浸式翻译
 DOMAIN-SUFFIX,immersivetranslate.com
 
-# 测试Lark规则
-DOMAIN-SUFFIX,byteoversea.com
-PROCESS-NAME,/Applications/Lark.app/,DIRECT
-PROCESS-NAME,/Applications/Lark.app/Contents/MacOS/Feishu,DIRECT
-PROCESS-NAME,"/Applications/Lark.app/Contents/Frameworks/Lark Framework.framework/Versions/121.0.6167.86/Helpers/Lark Helper (Iron).app/Contents/MacOS/Lark Helper (Iron)",DIRECT
-PROCESS-NAME,"/Applications/Lark.app/Contents/Frameworks/Lark Framework.framework/Versions/121.0.6167.86/Helpers/Lark Helper.app/Contents/MacOS/Lark Helper",DIRECT
-IP-CIDR,10.238.12.117/32,DIRECT,no-resolve
-PROCESS-NAME,"/Applications/Lark.app/Contents/Frameworks/Lark Framework.framework/Versions/121.0.6167.86/Libraries/video_conference_sdk",DIRECT
+## 🎬 媒体站补充
+DOMAIN-SUFFIX,mini4k.com
+
+## ✈️ 机场（服务供应商）
+DOMAIN,dler.cloud
+DOMAIN-SUFFIX,dler.cloud
+DOMAIN-KEYWORD,dler
