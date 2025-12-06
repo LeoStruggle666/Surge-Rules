@@ -1,39 +1,36 @@
-# 随机掉落的Proxy规则
-# 更新时间：2025年11月4日23:56:45
+# Surge Proxy Rules 整理版本
+# 更新时间：2025年12月6日16:59:24
 
-# 通讯与协作工具规则
+## 📞 通讯与协作工具
 DOMAIN-KEYWORD,nextchat
 DOMAIN,nextchat.dev
 DOMAIN-KEYWORD,makenotion
 DOMAIN,makenotion.com
-
 DOMAIN-KEYWORD,amplitude
 
-# 在线服务与工具规则
+## 🌐 在线服务与工具
 DOMAIN-KEYWORD,agoda
 DOMAIN-KEYWORD,1password
 DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,agilebits.com
+DOMAIN-KEYWORD,agilebits
 DOMAIN-SUFFIX,tmdb.org
-DOMAIN-SUFFIX,githubusercontent.com  # Github 下载域名
-DOMAIN-KEYWORD,github  # Github
-DOMAIN-KEYWORD,agilebits  # 1Password
-DOMAIN-SUFFIX,agilebits.com  # 1Password
-DOMAIN-KEYWORD,dropbox  # Dropbox
+DOMAIN-KEYWORD,github
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-KEYWORD,dropbox
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-KEYWORD,docker.io
+DOMAIN-SUFFIX,apache.org
+DOMAIN-KEYWORD,brew.sh
+DOMAIN-SUFFIX,brew.sh
 
-DOMAIN-SUFFIX,docker.com  # Docker
+### 身体数据 & 智能设备
+DOMAIN-KEYWORD,oura
 
-### nexitally
+## 🛩️ 机场 - Nexitally
 DOMAIN-SUFFIX,nexitally.com
 DOMAIN-KEYWORD,nexitally
 
-DOMAIN-KEYWORD,oura
-
+## ⚙️ Surge 相关
 DOMAIN-KEYWORD,nssurge
-
-DOMAIN-SUFFIX,brew.sh
-DOMAIN-KEYWORD,brew.sh
-
-DOMAIN-SUFFIX,docker.io
-DOMAIN-KEYWORD,docker.io
-
-DOMAIN-SUFFIX,apache.org
