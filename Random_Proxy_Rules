@@ -1,5 +1,5 @@
 # Surge Proxy Rules 整理版本
-# 更新时间：2025年12月8日17:57:03
+# 更新时间：2025年12月9日13:38:28
 
 ## 📞 通讯与协作工具
 DOMAIN-KEYWORD,nextchat
@@ -32,6 +32,10 @@ DOMAIN-KEYWORD,oura
 ## 🛩️ 机场 - Nexitally
 DOMAIN-SUFFIX,nexitally.com
 DOMAIN-KEYWORD,nexitally
+DOMAIN,dlercloud.com
+DOMAIN,dler.cloud
+DOMAIN-SUFFIX,dler.cloud
+DOMAIN-KEYWORD,dler
 
 ## ⚙️ Surge 相关
 DOMAIN-KEYWORD,nssurge
