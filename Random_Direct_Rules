@@ -1,5 +1,5 @@
 # Surge Direct Rules整理版本
-# 更新时间：2025-12-06 16:56:50
+# 更新时间：2025年12月9日13:37:39
 
 ## 🧠 数据科学与开发工具
 DOMAIN-KEYWORD,jupyterhub
@@ -56,6 +56,7 @@ DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN-SUFFIX,mini4k.com
 
 ## ✈️ 机场（服务供应商）
-DOMAIN,dler.cloud
-DOMAIN-SUFFIX,dler.cloud
-DOMAIN-KEYWORD,dler
+## DOMAIN,dlercloud.com
+## DOMAIN,dler.cloud
+## DOMAIN-SUFFIX,dler.cloud
+## DOMAIN-KEYWORD,dler
