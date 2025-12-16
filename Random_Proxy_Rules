@@ -25,6 +25,8 @@ DOMAIN-SUFFIX,apache.org
 DOMAIN-KEYWORD,brew.sh
 DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,podwise.ai
+DOMAIN-SUFFIX,blip.net
+PROCESS-NAME,/Applications/Blip.app/Contents/MacOS/Blip
 
 ### 身体数据 & 智能设备
 DOMAIN-KEYWORD,oura
