@@ -60,3 +60,6 @@ DOMAIN-SUFFIX,mini4k.com
 ## DOMAIN,dler.cloud
 ## DOMAIN-SUFFIX,dler.cloud
 ## DOMAIN-KEYWORD,dler
+
+## 字幕网站
+DOMAIN-KEYWORD,zimuku
